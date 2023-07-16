@@ -1,0 +1,184 @@
+text,label
+"Be cautious of suspicious emails. Do not click on links or download attachments from unknown senders.",phishing
+"Do not share passwords with anyone. Keep your accounts secure and use strong passwords that include letters, numbers, and special characters.",security
+"Remember to keep your software and applications updated. Updates often include important security patches.",security
+"Avoid entering personal information such as credit card numbers on unsecure websites. Look for the lock icon in the address bar.",security
+"If you receive a message or call requesting confidential information such as passwords or banking data, do not provide it. It could be a phishing attempt.",phishing
+"Use a reliable antivirus solution and keep your system protected against malware. Perform regular scans to detect potential threats.",malware
+"Be cautious when downloading applications from unknown sources. Verify reviews and download only from legitimate app stores.",security
+"Avoid clicking on suspicious ads or unverified links. They could redirect you to malicious websites or infect your device with malware.",phishing
+"Protect your personal information on social media. Adjust privacy settings and be selective when accepting friend requests or following requests.",security
+"Regularly back up your important data. Use cloud storage or external devices to protect them from loss or ransomware.",security
+"Be careful when opening email attachments, especially if they come from unknown sources. Malicious attachments can contain viruses or malware.",malware
+"Never provide your personal or financial information in response to unsolicited phone calls or messages. Legitimate organizations will not ask for sensitive information in this manner.",phishing
+"Enable two-factor authentication for your online accounts whenever possible. This adds an extra layer of security and helps protect against unauthorized access.",security
+"Avoid using public Wi-Fi networks for sensitive activities such as online banking or shopping. Public networks may not be secure, and your information could be intercepted.",security
+"Keep your antivirus software up to date. Regularly update the virus definitions to protect against new malware threats.",malware
+"Avoid downloading files or software from untrusted sources. Stick to reputable websites and official app stores.",malware
+"Enable automatic system updates to ensure your operating system and applications are patched with the latest security fixes.",malware
+"Be cautious of email attachments, especially from unknown senders. Scan attachments with antivirus software before opening.",malware
+"Use a reliable firewall to monitor and control incoming and outgoing network traffic. Configure it to block suspicious connections.",malware
+"Regularly backup your important files and data to an external storage device or cloud storage. In case of malware infection, you can restore your data.",malware
+"Avoid clicking on suspicious links, even if they are sent by someone you know. Verify the source before opening any links.",malware
+"Implement strong and unique passwords for your accounts. Enable multi-factor authentication whenever possible.",malware
+"Stay cautious while using public Wi-Fi networks. Avoid accessing sensitive information or making online transactions on unsecured networks.",malware
+"Keep your operating system and software up to date with the latest security patches and updates.",malware
+"Be skeptical of phishing emails or messages asking for personal information. Avoid clicking on suspicious links or providing sensitive data.",phishing
+"Double-check the URLs of websites before entering any login credentials or personal information. Look for HTTPS and a padlock icon for secure connections.",phishing
+"Avoid sharing sensitive information, such as passwords or financial details, through email or instant messaging platforms.",phishing
+"Regularly review your online accounts for any unauthorized activity. Set up alerts for suspicious login attempts or account changes.",phishing
+"Be wary of unexpected or urgent requests for money or personal information. Verify the legitimacy of the request through a trusted channel.",phishing
+"Avoid visiting unfamiliar websites or clicking on ads from unknown sources. Stick to reputable websites for online activities.",ph
+"Keep your antivirus software up to date. Regularly update the virus definitions to protect against new malware threats.",malware
+"Avoid downloading files or software from untrusted sources. Stick to reputable websites and official app stores.",malware
+"Enable automatic system updates to ensure your operating system and applications are patched with the latest security fixes.",malware
+"Be cautious of email attachments, especially from unknown senders. Scan attachments with antivirus software before opening.",malware
+"Use a reliable firewall to monitor and control incoming and outgoing network traffic. Configure it to block suspicious connections.",malware
+"Regularly backup your important files and data to an external storage device or cloud storage. In case of malware infection, you can restore your data.",malware
+"Avoid clicking on suspicious links, even if they are sent by someone you know. Verify the source before opening any links.",malware
+"Implement strong and unique passwords for your accounts. Enable multi-factor authentication whenever possible.",malware
+"Stay cautious while using public Wi-Fi networks. Avoid accessing sensitive information or making online transactions on unsecured networks.",malware
+"Keep your operating system and software up to date with the latest security patches and updates.",malware
+"Be skeptical of phishing emails or messages asking for personal information. Avoid clicking on suspicious links or providing sensitive data.",phishing
+"Double-check the URLs of websites before entering any login credentials or personal information. Look for HTTPS and a padlock icon for secure connections.",phishing
+"Avoid sharing sensitive information, such as passwords or financial details, through email or instant messaging platforms.",phishing
+"Regularly review your online accounts for any unauthorized activity. Set up alerts for suspicious login attempts or account changes.",phishing
+"Be wary of unexpected or urgent requests for money or personal information. Verify the legitimacy of the request through a trusted channel.",phishing
+"Avoid visiting unfamiliar websites or clicking on ads from unknown sources. Stick to reputable websites for online activities.",phishing
+"Update your web browser regularly to ensure you have the latest security features and patches.",phishing
+"Be cautious of social engineering attacks, such as fake tech support calls or messages asking for personal information. Verify the identity of the requester.",social_engineering
+"Avoid downloading software or files from unknown sources, as they may contain hidden malware or spyware.",social_engineering
+"Keep your personal information private and avoid oversharing on social media platforms. Be cautious of friend requests from unknown individuals.",social_engineering
+"Be skeptical of unsolicited phone calls or emails asking for personal information or login credentials. Do not provide sensitive data to unknown parties.",social_engineering
+"Regularly monitor your financial statements and credit reports for any unauthorized activity. Report any suspicious transactions immediately.",identity_theft
+"Use secure and unique passwords for your online accounts. Consider using a password manager to generate and store complex passwords.",identity_theft
+"Shred or securely dispose of documents containing sensitive personal information, such as bank statements or medical records.",identity_theft
+"Avoid sharing personal information, such as your Social Security number or driver's license, unless necessary and with trusted entities.",identity_theft
+"Be cautious when sharing personal information on public Wi-Fi networks. Use a virtual private network (VPN) for secure browsing.",identity_theft
+"Regularly scan your computer with reputable anti-malware software to detect and remove any potential threats.",malware
+"Enable email filtering to block and quarantine suspicious emails that may contain malware or phishing attempts.",malware
+"Use strong encryption methods, such as SSL/TLS, for securing your website and online transactions.",malware
+"Monitor your network traffic for any unusual or suspicious activities using network security tools.",malware
+"Keep your mobile devices up to date with the latest operating system and security updates.",malware
+"Avoid using public computers or unsecured Wi-Fi networks for accessing sensitive information or making online transactions.",malware
+"Regularly review the privacy settings of your online accounts and adjust them according to your preferences.",phishing
+"Enable two-factor authentication (2FA) for an additional layer of security for your online accounts.",phishing
+"Be cautious of social media scams, such as fake giveaways or malicious links shared on platforms.",phishing
+"Use a reliable ad-blocker and browser extensions that can help prevent malicious ads and scripts.",phishing
+"Be aware of the signs of social engineering, such as requests for urgent money transfers or confidential information.",social_engineering
+"Avoid downloading apps from unofficial app stores. Stick to trusted sources, such as official app stores.",social_engineering
+"Regularly review your credit reports from major credit bureaus to detect any suspicious activities or unauthorized accounts.",identity_theft
+"Consider using identity theft protection services that can monitor your personal information and provide alerts for potential fraud.",identity_theft
+"Avoid oversharing personal information on social media platforms, including birthdate, address, and phone number.",identity_theft
+"Secure your Wi-Fi network with a strong password and encryption to prevent unauthorized access to your internet connection.",identity_theft
+"Be cautious when using ATMs or card readers. Look for any signs of tampering or suspicious devices attached to them.",identity_theft
+"Always verify the authenticity of websites before entering sensitive information. Look for HTTPS encryption and ensure the website has a valid SSL certificate.",security
+"Regularly review your online accounts for any suspicious activity. If you notice any unauthorized access or unfamiliar transactions, report it immediately.",security
+"Be cautious when sharing personal information on social media platforms. Limit the amount of personal details you disclose and adjust privacy settings accordingly.",privacy
+"Avoid using public computers or devices for logging into your personal accounts. These devices may have keyloggers or other malware installed.",security
+"Create unique and strong passwords for each of your online accounts. Consider using a password manager to securely store and manage your passwords.",security
+"Be wary of fake social media profiles or messages from unknown individuals. Avoid accepting friend requests or engaging in conversations with suspicious accounts.",phishing
+"Regularly review and update your privacy settings on social media platforms. Limit the visibility of your posts and personal information to trusted connections.",privacy
+"Exercise caution when downloading files from the internet. Scan them with an antivirus program before opening to mitigate the risk of malware infections.",malware
+"Avoid clicking on pop-up ads or banners that appear on websites. They may lead to malicious websites or trigger unwanted downloads.",phishing
+"Use a firewall on your devices to block unauthorized access. Enable the built-in firewall or install a reputable third-party firewall application.",security
+"Keep your operating system and software up to date with the latest security patches. Enable automatic updates whenever possible.",security
+"Be skeptical of unsolicited emails, especially those requesting personal information or containing suspicious attachments. Delete them without clicking on any links.",phishing
+"Secure your home Wi-Fi network with a strong password and encryption. Regularly change the password and restrict access to authorized devices.",security
+"Avoid sharing sensitive information, such as your full address or financial details, on public forums or unsecured websites.",privacy
+"Enable browser extensions or plugins that provide additional security features, such as blocking malicious websites or tracking protection.",security
+"Regularly educate yourself about the latest online scams and phishing techniques. Stay informed and share knowledge with friends and family to help them stay safe.",security
+"Always verify the authenticity of websites before entering sensitive information. Look for HTTPS encryption and ensure the website has a valid SSL certificate.",security
+"Avoid clicking on suspicious email links or attachments, especially from unknown senders. They may lead to phishing websites or infect your device with malware.",phishing
+"Use a secure and updated web browser to minimize vulnerabilities. Regularly check for browser updates and enable automatic security updates.",security
+"Be cautious when downloading files from the internet. Only download from trusted sources and scan them for malware before opening.",malware
+"Avoid visiting suspicious websites or clicking on pop-up ads. These websites can contain malicious content or attempt to steal your personal information.",security
+"Enable pop-up blockers in your web browser to prevent unwanted pop-ups that may contain malicious links or advertisements.",security
+"Use a virtual private network (VPN) when accessing the internet, especially on public Wi-Fi networks. A VPN encrypts your connection and enhances privacy.",security
+"Regularly clear your browsing history, cookies, and cache to remove stored information that can be accessed by malicious actors.",privacy
+"Be cautious when sharing personal information online, especially on social media platforms. Limit the amount of personal details you disclose and adjust privacy settings accordingly.",privacy
+"Ensure your Wi-Fi network is password protected and uses strong encryption. Regularly change the Wi-Fi password to prevent unauthorized access.",security
+"Be careful when entering sensitive information on websites. Double-check the URL for typos or suspicious characters that may indicate a fake or phishing site.",phishing
+"Avoid using public computers or devices for sensitive activities like online banking or shopping. These devices may have malware or keyloggers installed.",security
+"Enable two-factor authentication (2FA) for your online accounts whenever possible. This adds an extra layer of security to protect against unauthorized access.",security
+"Regularly update your antivirus software and perform full system scans to detect and remove any malware or viruses.",security
+"Be cautious when sharing personal information over instant messaging or chat platforms. Verify the identity of the recipient before sharing any sensitive details.",privacy
+"Avoid using simple or easily guessable passwords. Use a combination of uppercase and lowercase letters, numbers, and special characters for stronger passwords.",security
+"Stay informed about the latest online threats and scams. Regularly read cybersecurity news and educate yourself about common tactics used by cybercriminals.",security
+"Beware of phishing emails that mimic legitimate organizations. Verify the sender's email address and avoid clicking on suspicious links or providing personal information.",phishing
+"Protect yourself against identity theft by shredding sensitive documents before discarding them. Avoid sharing personal information unless absolutely necessary.",security
+"Be cautious of fake tech support calls claiming that your computer is infected. Hang up and contact the official support channels of your software or device manufacturer.",scams
+"Secure your online accounts with strong, unique passwords. Enable multi-factor authentication for an extra layer of protection against unauthorized access.",security
+"Avoid using public Wi-Fi networks for accessing sensitive information. If you must use public Wi-Fi, use a VPN to encrypt your connection and protect your data.",security
+"Keep your devices and software up to date with the latest security patches. Enable automatic updates to ensure you're protected against known vulnerabilities.",security
+"Be mindful of shoulder surfing, where someone tries to steal your information by looking over your shoulder. Protect your screen and be aware of your surroundings.",security
+"Regularly review your bank and credit card statements for any suspicious transactions. Report any unauthorized activity to your financial institution immediately.",security
+"Beware of social engineering tactics, such as someone posing as a trusted individual to deceive you into sharing sensitive information. Verify requests independently.",security
+"Protect your personal information on social media by reviewing your privacy settings and being selective about what you share publicly. Be cautious of friend requests from unknown individuals.",privacy
+"Backup your important data regularly to avoid data loss from ransomware attacks. Use cloud storage or external drives and ensure the backups are securely encrypted.",security
+"Be cautious when downloading mobile apps. Only download from official app stores, read user reviews, and verify the app's permissions before installation.",security
+"Avoid clicking on suspicious links in emails, social media, or websites. Hover over the link to check the URL's legitimacy before clicking.",phishing
+"Be careful when sharing sensitive information on public platforms like online forums or chat rooms. Your information may be accessible to unauthorized individuals.",privacy
+"Protect yourself from malicious software by using reputable antivirus software and regularly scanning your devices for potential threats.",malware
+"Secure your home network by changing the default router password, enabling WPA2 encryption, and regularly updating your router's firmware.",security
+"Be cautious of investment scams promising high returns with little risk. Research and verify investment opportunities before providing any financial information.",scams
+"Avoid using easily guessable security questions for password recovery. Opt for unique and personal questions that are difficult for others to answer.",security
+"Think before you click on attachments or links even if they appear to be from known sources. Contact the sender to verify their authenticity if in doubt.",phishing
+"Keep your browser up to date with the latest version to ensure you have the latest security patches and features.",security
+"Enable automatic updates for your browser to ensure you receive the latest security updates without manual intervention.",security
+"Install browser extensions or plugins that enhance your online security, such as ad blockers, anti-tracking tools, or script blockers.",security
+"Regularly clear your browser cache and cookies to remove stored information that can be used to track your online activities.",privacy
+"Be cautious when installing browser add-ons or extensions. Only install trusted and reputable ones from verified sources.",security
+"Enable private browsing or incognito mode when browsing websites that you don't want to leave a trace of in your browsing history.",privacy
+"Disable or limit browser plugins and extensions that are not essential, as they can introduce vulnerabilities and impact performance.",security
+"Review and adjust your browser's security settings to enhance protection against malicious websites and phishing attempts.",security
+"Use a password manager to securely store and manage your website login credentials. This helps you create and store strong, unique passwords for each site.",security
+"Avoid clicking on suspicious links or downloading files from untrusted sources. These can lead to malware infections or phishing attacks.",security
+"Regularly review and manage your browser's saved passwords. Remove any outdated or unused passwords and update weak passwords with stronger ones.",security
+"Enable browser warnings for insecure websites or invalid SSL certificates. This helps you avoid accessing potentially risky or fake websites.",security
+"Exercise caution when using public computers or shared devices for browsing. Avoid entering sensitive information and always log out of your accounts.",security
+"Enable browser-based privacy features, such as tracking protection and Do Not Track settings, to enhance your online privacy.",privacy
+"Be skeptical of browser pop-up windows asking for personal or financial information. Close them and manually navigate to the trusted website instead.",phishing
+"Regularly backup your browser bookmarks and export them to a secure location. This ensures you don't lose important website references.",security
+"Change the default Wi-Fi network name (SSID) and password provided by your internet service provider to a unique and strong one.",security
+"Enable Wi-Fi encryption, preferably WPA2 or WPA3, to secure your wireless network and prevent unauthorized access.",security
+"Regularly update your Wi-Fi router's firmware to ensure you have the latest security patches and bug fixes.",security
+"Disable Wi-Fi Protected Setup (WPS) if it's not required, as it can be vulnerable to brute-force attacks.",security
+"Create a separate guest network for visitors to your home or office, keeping them isolated from your main network.",security
+"Turn off Wi-Fi when not in use, especially when you're away from home or not using wireless devices for an extended period.",security
+"Disable remote management of your Wi-Fi router to prevent unauthorized access to its settings.",security
+"Change the default login credentials for your Wi-Fi router's administration interface to secure access to its configuration.",security
+"Regularly check connected devices on your Wi-Fi network to identify any unauthorized or suspicious devices.",security
+"Avoid using easily guessable passwords for your Wi-Fi network. Use a combination of letters, numbers, and special characters.",security
+"Consider using a strong and unique passphrase instead of a password for your Wi-Fi network to enhance security.",security
+"Position your Wi-Fi router in a central location to ensure optimal coverage and reduce the risk of unauthorized access from outside your premises.",security
+"Disable SSID broadcast on your Wi-Fi network to make it less visible to potential attackers.",security
+"Use a firewall on your Wi-Fi router to block unauthorized incoming and outgoing connections.",security
+"Avoid using public Wi-Fi networks for sensitive activities like online banking or shopping, as they can be insecure and prone to eavesdropping.",security
+"Regularly review connected devices on your Wi-Fi network and remove any unknown or unrecognized devices.",security
+"Consider using Wi-Fi network monitoring tools to detect and identify any suspicious activity or unauthorized access.",security
+"Be cautious when clicking on email attachments, even if they appear to be from a known sender. Scan them for malware before opening.",security
+"Avoid using public computers or shared devices to access sensitive information like online banking or email accounts.",security
+"Regularly review your online accounts for any unauthorized activity or suspicious transactions.",security
+"Be skeptical of unsolicited phone calls or messages asking for personal information or financial details. Verify the legitimacy of the request before providing any information.",phishing
+"Enable multi-factor authentication (MFA) for your important online accounts to add an extra layer of security.",security
+"Backup your important data regularly and store it in a secure location to protect against data loss or ransomware attacks.",security
+"Use a password manager to generate and store strong, unique passwords for each of your online accounts.",security
+"Be cautious when sharing personal information on social media platforms. Limit the amount of personal details you disclose and adjust privacy settings accordingly.",privacy
+"Regularly monitor your credit reports and bank statements for any unauthorized or suspicious activity.",security
+"Keep your devices and operating systems up to date with the latest security patches and updates.",security
+"Use reputable antivirus software and keep it updated to protect against malware and other security threats.",malware
+"Avoid clicking on suspicious links or downloading files from untrusted sources, as they can lead to malware infections or phishing attacks.",security
+"Encrypt sensitive data, such as files or emails, to protect it from unauthorized access.",security
+"Be cautious when sharing sensitive information over public Wi-Fi networks. Use a virtual private network (VPN) for added security.",security
+"Regularly educate yourself about the latest cybersecurity threats and best practices to stay informed and vigilant.",security
+"Prevent clicking on suspicious emails or links. Do not click on links or download attachments from unknown senders.",security
+"Prevent sharing passwords with anyone. Keep your accounts secure and use strong passwords that include letters, numbers, and special characters.",security
+"Prevent keeping your software and applications updated. Updates often include important security patches.",security
+"Prevent entering personal information such as credit card numbers on unsecure websites. Look for the lock icon in the address bar.",security
+"Prevent providing confidential information such as passwords or banking data in response to a message or call. It could be a phishing attempt.",phishing
+"Prevent using unreliable antivirus solutions. Use a reliable antivirus solution and keep your system protected against malware. Perform regular scans to detect potential threats.",malware
+"Prevent downloading applications from unknown sources without verifying reviews and legitimacy. Download only from legitimate app stores.",security
+"Prevent clicking on suspicious ads or unverified links. They could redirect you to malicious websites or infect your device with malware.",phishing
+"Prevent sharing personal information on social media without adjusting privacy settings. Be selective when accepting friend requests or following requests.",security
+"Prevent data loss or ransomware by regularly backing up your important data. Use cloud storage or external devices for protection.",security

@@ -1,0 +1,114 @@
+Documento sobre modelos de lenguaje openwebtext
+// https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
+
+
+Esto crea un train.bin y un val.bin en ese directorio de datos. Ahora es el momento de entrenar tu GPT. Su tamaño depende en gran medida de los recursos computacionales de su sistema:
+python3 data/assistantcibersecurity/prepare.py
+
+
+Tengo una GPU. Genial, podemos entrenar rápidamente a un bebé GPT con la configuración provista en el archivo de configuración config/train_shakespeare_char.py:
+
+python3 train.py config/train_assimade.py
+
+Si mira dentro, verá que estamos entrenando un GPT con un tamaño de contexto de hasta 256 caracteres, 384 canales de funciones y es un transformador de 6 capas con 6 cabezas en cada capa. En una GPU A100, esta ejecución de entrenamiento dura unos 3 minutos y la mejor pérdida de validación es 1,4697. Según la configuración, los puntos de control del modelo se escriben en el directorio --out_dir out-shakespeare-char. Entonces, una vez que finaliza el entrenamiento, podemos tomar muestras del mejor modelo apuntando el script de muestreo a este directorio:
+
+
+
+
+python3 train.py config/train_shakespeare_char.py --device=cpu --compile=False --eval_iters=20 --log_interval=1 --block_size=64 --batch_size=12 --n_layer=4 --n_head=4 --n_embd=128 --max_iters=2000 --lr_decay_iters=2000 --dropout=0.0
+
+
+python3 sample.py --out_dir=out-shakespeare-char --device=cpu
+
+Aquí, dado que estamos ejecutando en CPU en lugar de GPU, debemos configurar --device=cpu y también desactivar la compilación de PyTorch 2.0 con --compile=False. Luego, cuando evaluamos, obtenemos una estimación un poco más ruidosa pero más rápida (--eval_iters = 20, por debajo de 200), nuestro tamaño de contexto es solo de 64 caracteres en lugar de 256, y el tamaño del lote solo 12 ejemplos por iteración, no 64. También usaré un Transformador mucho más pequeño (4 capas, 4 cabezas, 128 tamaños de incrustación) y disminuiré el número de iteraciones a 2000 (y, en consecuencia, generalmente disminuirá la tasa de aprendizaje a alrededor de max_iters con --lr_decay_iters). Debido a que nuestra red es tan pequeña, también reducimos la regularización (--dropout=0.0). Esto aún se ejecuta en aproximadamente
+3 minutos, pero nos da una pérdida de solo 1.88 y, por lo tanto, también peores muestras, pero aún así es muy divertido:
+
+python3 sample.py --out_dir=out-shakespeare-char --device=cpu
+
+
+No está mal para
+3 minutos en una CPU, para una pista de la gestalt de personaje correcta. Si está dispuesto a esperar más, no dude en ajustar los hiperparámetros, aumentar el tamaño de la red, la longitud del contexto (--block_size), la duración del entrenamiento, etc.
+
+Finalmente, en Apple Silicon Macbooks y con una versión reciente de PyTorch, asegúrese de agregar --device=mps (abreviatura de 'Metal Performance Shaders'); PyTorch luego usa la GPU en el chip que puede acelerar significativamente el entrenamiento (2-3X) y permitirle usar redes más grandes. Consulte el número 28 para obtener más información.
+
+
+
+reproducing GPT-2
+Un profesional de aprendizaje profundo más serio puede estar más interesado en reproducir los resultados de GPT-2. Así que aquí vamos: primero tokenizamos el conjunto de datos, en este caso OpenWebText, una reproducción abierta del WebText (privado) de OpenAI:
+
+$ python data/openwebtext/prepare.py
+
+Esto descarga y tokeniza el conjunto de datos de OpenWebText. Creará un train.bin y un val.bin que contienen los identificadores de token GPT2 BPE en una secuencia, almacenados como uint16 bytes sin formato. Entonces estamos listos para iniciar el entrenamiento. Para reproducir GPT-2 (124M), necesitará al menos un nodo 8X A100 de 40 GB y ejecutar:
+
+$ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+
+
+
+sampling / inference
+
+Use the script sample.py to sample either from pre-trained GPT-2 models released by OpenAI, or from a model you trained yourself. For example, here is a way to sample from the largest available gpt2-xl model:
+
+$ python sample.py \
+    --init_from=gpt2-xl \
+    --start="What is the answer to life, the universe, and everything?" \
+    --num_samples=5 --max_new_tokens=100
+
+If you'd like to sample from a model you trained, use the --out_dir to point the code appropriately. You can also prompt the model with some text from a file, e.g. $ python sample.py --start=FILE:prompt.txt.
+
+
+python3 data/assistantcibersecurity/prepare.py
+
+
+
+python3 data/assistantcibersecurity/prepare.py
+
+python3 train.py config/train_assimade.py --device=cpu --compile=False --eval_iters=20 --log_interval=1 --block_size=512 --batch_size=12 --n_layer=4 --n_head=4 --n_embd=128 --max_iters=2000 --lr_decay_iters=2000 --dropout=0.0
+
+
+python3 sample.py --out_dir=out-assistmade-char --device=cpu --start="tips password"
+
+
+El código que has proporcionado parece ser una línea de comando para ejecutar un script llamado "train.py" en Python 3. Este script se ejecuta con varios argumentos que configuran el entrenamiento de algún modelo o algoritmo. A continuación, explicaré los diferentes argumentos utilizados en el comando:
+
+    config/train_assimade.py: Este argumento indica el archivo de configuración utilizado para el entrenamiento. El archivo train_assimade.py contiene los parámetros y configuraciones específicas necesarias para entrenar el modelo o algoritmo deseado.
+
+    --device=cpu: Este argumento indica que se utilizará la CPU para ejecutar el entrenamiento. La opción "cpu" indica que se utilizará la unidad de procesamiento central en lugar de una unidad de procesamiento gráfico (GPU).
+
+    --compile=False: Este argumento indica que no se realizará una compilación durante el entrenamiento. Puede haber algún proceso de compilación necesario según el modelo o algoritmo utilizado, pero en este caso se establece en "False" para evitar la compilación.
+
+    --eval_iters=20: Este argumento indica que se realizará una evaluación del modelo después de cada 20 iteraciones de entrenamiento. La evaluación puede implicar el cálculo de métricas de rendimiento o la evaluación de resultados intermedios.
+
+    --log_interval=1: Este argumento indica que se imprimirá un mensaje de registro después de cada iteración de entrenamiento. La opción "1" indica que se mostrará un mensaje de registro después de cada iteración.
+
+    --block_size=64: Este argumento indica el tamaño de bloque utilizado en el modelo o algoritmo. El valor "64" se refiere a la longitud de los bloques en algún contexto específico.
+
+    --batch_size=12: Este argumento indica el tamaño del lote utilizado durante el entrenamiento. El valor "12" indica que se procesarán 12 ejemplos de entrenamiento en cada paso de actualización de los parámetros del modelo.
+
+    --n_layer=4: Este argumento indica el número de capas en el modelo. El valor "4" se refiere a que el modelo tiene 4 capas en total.
+
+    --n_head=4: Este argumento indica el número de cabezas de atención en el modelo. El valor "4" se refiere a que el modelo tiene 4 cabezas de atención.
+
+    --n_embd=128: Este argumento indica la dimensión de los vectores de incrustación utilizados en el modelo. El valor "128" se refiere a que los vectores de incrustación tienen una dimensión de 128.
+
+    --max_iters=2000: Este argumento indica el número máximo de iteraciones de entrenamiento. El valor "2000" indica que el entrenamiento se realizará durante 2000 iteraciones.
+
+    --lr_decay_iters=2000: Este argumento indica después de cuántas iteraciones se realizará una disminución en la tasa de aprendizaje (lr). En este caso, después de 2000 iteraciones, se realizará un decaimiento en la tasa de aprendizaje.
+
+    --dropout=0.0: Este argumento indica la probabilidad de abandono (dropout) utilizado en el modelo. El valor "0.0" indica que no se utilizará dropout durante el entrenamiento.
+
+
+
+    Para mejorar el entrenamiento, aquí hay algunos parámetros que puedes considerar ajustar:
+
+    --batch_size: Puedes aumentar el tamaño del lote (batch size) para procesar más ejemplos a la vez. Esto puede acelerar el entrenamiento, pero asegúrate de que tu hardware tenga suficiente memoria para manejar el aumento del tamaño del lote.
+
+    --n_layer y --n_head: Puedes aumentar el número de capas y cabezas de atención en el modelo para aumentar su capacidad y capacidad de representación. Sin embargo, ten en cuenta que un modelo más profundo puede requerir más recursos computacionales y tiempo de entrenamiento.
+
+    --n_embd: Puedes aumentar la dimensión de los vectores de incrustación para capturar representaciones más complejas, pero nuevamente, esto puede aumentar la complejidad computacional.
+
+    --max_iters y --lr_decay_iters: Puedes aumentar el número máximo de iteraciones de entrenamiento y el número de iteraciones antes de reducir la tasa de aprendizaje. Esto permite un entrenamiento más prolongado, lo que puede mejorar el ajuste del modelo.
+
+    --dropout: Puedes ajustar el valor de probabilidad de dropout para regularizar el modelo y evitar el sobreajuste. Un valor mayor de dropout (por ejemplo, 0.2 o 0.5) puede aumentar la regularización, pero asegúrate de no establecerlo demasiado alto, ya que puede afectar el rendimiento del modelo.
+
+Ten en cuenta que los ajustes óptimos de estos parámetros pueden variar según el problema, el conjunto de datos y la arquitectura del modelo que estés utilizando. Es importante experimentar con diferentes valores y observar cómo afectan el rendimiento y la convergencia del modelo durante el entrenamiento.
