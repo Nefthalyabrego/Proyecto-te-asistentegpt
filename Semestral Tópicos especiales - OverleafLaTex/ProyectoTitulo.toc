@@ -1,0 +1,50 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{I}{chapter*.1}%
+\contentsline {chapter}{Abstract}{II}{chapter*.2}%
+\contentsline {chapter}{Índice de figuras}{VII}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Formulación de hipótesis y objetivos}{2}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cultura, sociedad y conciencia digital.}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Cultura digital y ciberseguridad en Panamá}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3} Delitos informáticos en Panamá y leyes}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Revisión de la literatura}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Asistentes digitales}{5}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Procesamiento del lenguaje natural e inteligencia artificial}{6}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Modelos y herramientas existentes para generar conversaciones fluidas}{6}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Estudios relacionados}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Objetivos del proyecto}{7}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Objetivo general}{7}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Objetivos específicos}{7}{subsection.2.6.2}%
+\contentsline {chapter}{\numberline {3}Materiales y Métodos}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Materiales y métodos para la recolección de datos y análisis de la población.}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Metodología y materiales para el desarrollo del modelo GPT.}{9}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Resultados}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Creación de conjunto de datos de entrenamiento y Adaptación de modelo nanoGPT}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Configuración de los parámetros del código y entrenamiento}{13}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Configuración 1}{14}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Configuración 2}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Validación del modelo Configuración 1}{16}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1} Prueba 1}{16}{subsubsection.4.2.3.1}%
+\contentsline {subsection}{\numberline {4.2.4}Validación del modelo Configuración 2}{18}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1} Prueba 1}{18}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2} Prueba 2}{18}{subsubsection.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.4.3} Prueba 3}{19}{subsubsection.4.2.4.3}%
+\contentsline {subsubsection}{\numberline {4.2.4.4} Prueba 4}{20}{subsubsection.4.2.4.4}%
+\contentsline {subsection}{\numberline {4.2.5}Configuración del modelo a prestaciones del hardware subyacente.}{21}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Aplicación de entrenamiento al modelo}{21}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Entrenamiento}{21}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Optimización}{21}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Resultados y discusión}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Resultados}{22}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Resultados de prompts}{22}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Limitantes}{22}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Discusión }{22}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusiones}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Reflección}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conclusión}{23}{section.6.2}%
+\contentsline {chapter}{Bibliografía}{24}{section.6.2}%
+\contentsline {chapter}{Anexos}{25}{section*.6}%
+\contentsline {chapter}{\numberline {I}Encuesta}{26}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {I.0.1}Encuesta sobre conciencia digital}{26}{subsection.Alph1.0.1}%
+\contentsline {subsection}{\numberline {I.0.2}Resultados de la Encuesta}{32}{subsection.Alph1.0.2}%

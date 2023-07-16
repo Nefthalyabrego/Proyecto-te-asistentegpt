@@ -1,0 +1,54 @@
+%==============================================================================
+% Template PROYECTO DE TITULO UCM
+% Autor: Marco Quiroz
+%        Escuela de Ing Civil         
+%        Departamento de Obras Civiles
+%        Universidad Católica del Maule
+%==============================================================================
+\def\Presentation@Version{1.0}
+\typeout{Marco Quiroz, Universidad Catolica del Maule, Talca, 2023/04/25}
+
+%Paquetes a Utiizar
+\renewcommand{\baselinestretch}{1.5}
+\usepackage[spanish,es-tabla,es-ucroman]{babel}
+\usepackage[letterpaper]{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.75cm, right=2.75cm}
+\usepackage{fontspec}
+\setromanfont{Times New Roman}
+\usepackage{lipsum}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,      
+    urlcolor=blue,
+    breaklinks=true,
+    pdftitle={Proyecto de Titulo},
+    pdfpagemode=FullScreen,
+    citecolor=blue,
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}% <- use fancyplain instead fancy
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\chaptermark}
+\renewcommand{\headrulewidth}{0pt}
+
+% Anexos
+\addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
+\usepackage{appendix}
+\renewcommand{\appendixtocname}{Anexos}
+\renewcommand{\appendixpagename}{Anexos}
+
+%Bibliografia
+\usepackage{natbib}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\newcommand*\wildcard[2][7cm]{\vspace*{0.75cm}\parbox{#1}{\hrulefill\vspace*{-0.25cm}\par#2}}
+\setlength{\headheight}{15pt}
+\usepackage{float}
+
