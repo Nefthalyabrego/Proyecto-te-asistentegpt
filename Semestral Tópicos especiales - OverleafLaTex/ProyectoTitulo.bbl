@@ -4,6 +4,14 @@
 A, R. and H, S. (2020).
 \newblock The importance of cybersecurity education in school.
 
+\bibitem[Alex, 2023]{Alex2023}
+Alex (2023).
+\newblock Language models explained.
+
+\bibitem[AWS, 2022]{AWS2022}
+AWS (2022).
+\newblock Explicación de los transformadores generativos preentrenados - aws.
+
 \bibitem[Brown et~al., 2020]{Brown2020}
 Brown, T.~B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
   Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S.,
@@ -35,6 +43,12 @@ Gediz, U.~G. (2020).
 \newblock How to generate an nlp dataset from any internet source? - kimola
   cognitive.
 
+\bibitem[Gordon~Graell, 2022]{Graell2022}
+Gordon~Graell, R.~D. (2022).
+\newblock Informática educativa, base para el desarrollo de una ciudadanía
+  digital en panamá.
+\newblock {\em REVISTA ANUAL ACCIÓN Y REFLEXIÓN EDUCATIVA}, N.o 47:238--261.
+
 \bibitem[Konkolewsky, 2017]{Konkolewsky2017}
 Konkolewsky, H.~H. (2017).
 \newblock Digital economy and the future of social security.
@@ -46,12 +60,6 @@ Li, Y. and Liu, Q. (2021).
   emerging trends and recent developments.
 \newblock {\em Energy Reports}, 7:8176--8186.
 
-\bibitem[Lyon, 2017]{Lyon2017}
-Lyon, D. (2017).
-\newblock Digital citizenship and surveillance| surveillance culture:
-  Engagement, exposure, and ethics in digital modernity.
-\newblock {\em International Journal of Communication}, 11:19.
-
 \bibitem[Nadeesha and Madusanka, 2021]{Nadeesha2021}
 Nadeesha, J. and Madusanka, D. (2021).
 \newblock Awareness of internet browsing security among undergraduates
@@ -62,6 +70,11 @@ Popkova, E.~G. and Gulzat, K. (2020).
 \newblock Contradiction of the digital economy: Public well-being vs. cyber
   threats.
 \newblock {\em Lecture Notes in Networks and Systems}, 87:112--124.
+
+\bibitem[Reiss et~al., 2021]{Reiss2021}
+Reiss, F., Cutler, B., and Eichenberger, Z. (2021).
+\newblock Natural language processing with pandas dataframes.
+\newblock {\em PROC. OF THE 20th PYTHON IN SCIENCE CONF}, page~49.
 
 \bibitem[Urribarri, 2022]{Urribarri2022}
 Urribarri, R. (2022).

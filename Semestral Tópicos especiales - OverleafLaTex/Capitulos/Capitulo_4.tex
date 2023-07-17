@@ -1,25 +1,20 @@
-\chapter{Desarrollo de propuesta de prototipo}\label{cap:capitulo4}
+%\chapter{Desarrollo de propuesta de prototipo}\label{cap:capitulo4}
 
 %---------------------------------------------------------------------------
-\section{Creación de conjunto de datos de entrenamiento y Adaptación de modelo nanoGPT}\label{section:Creación de conjunto de datos con fuentes de internet} 
-Para la propuesta del prototipo objeto de esta investigación se plantea la creación de un conjunto de datos a partir de textos de internet en inglés que permiten tener información inicial en el contexto de la investigación para el entrenamiento. Para ello se tiene una columna de texto plano en formato CSV con contenido sobre navegación segura en internet y ciberseguridad. Esta columna es procesada por la librería pandas que permite cargar los datos en un DataFrame o estructura de datos para el posterior procesamiento.[23] \\
-%\begin{figure}[H]
-  %  \centering % figure is centered on the page
-%        \includegraphics[width=0.8\linewidth]{./doc/01-ca.png} 
-%    \caption{Titulo de la Encuesta \cite{}}
-%   \label{figure:Resultado 1}  % assign a unique label to each figure 
-%\end{figure}
+\subsection{Creación de conjunto de datos de entrenamiento y adaptación de nanoGPT}\label{section:Creación de conjunto de datos con fuentes de internet} 
+Para la propuesta del prototipo objeto de esta investigación se plantea la creación de un conjunto de datos a partir de textos clasificados por categoría de amenazas en internet y de medios digitales. Para ello se tiene una columna de texto plano en formato CSV con contenido sobre la recomendación y una etiqueta de clasificación de la recomendación. Esta columna es procesada por la librería pandas que permite cargar los datos en un dataframe o estructura de datos para el posterior procesamiento.\cite{Reiss2021} \\
+
 \begin{figure}[H]
    \centering % figure is centered on the page
-       \includegraphics[width=0.8\linewidth]{./doc/01-cr.png} 
-   \caption{Conjunto de datos en un dataframe  \cite{}}
-  \label{figure:Resultado 1}  % assign a unique label to each figure 
+       \includegraphics[width=0.7\linewidth]{./doc/Conjunto de datos etiquetado.png} 
+   \caption{Características del conjunto de datos etiquetados \cite{}}
+  \label{figure:Conjunto de datos}  % assign a unique label to each figure 
 \end{figure}
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/02-cr.png} 
    \caption{Configuración para extraer el conjunto de datos en un dataframe y preparación de los datos.  \cite{}}
-  \label{figure:Resultado 1}  % assign a unique label to each figure 
+  \label{figure:Extraxión de datos del csv}  % assign a unique label to each figure 
 \end{figure}
 
 Este conjunto de datos es variado y proporciona ejemplos, recomendaciones generales para evitar sesgos de información permitiendo un conjunto de datos de diferentes fuentes para producir resultados más precisos. Para ello se realiza una selectiva elección de datos verdaderos y consistentes.[24] \\
@@ -29,19 +24,19 @@ Este conjunto luego se carga para la tokenización, proceso que permite dividir 
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/03-cr.png} 
    \caption{procesamiento crea  ficheros de validación, entrenamiento y un meta modelo de apoyo.  \cite{}}
-  \label{figure:Resultado 1}  % assign a unique label to each figure 
+  \label{figure:Etapa de encoder}  % assign a unique label to each figure 
 \end{figure}
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/04-cr.png} 
    \caption{Configuraciones y parámetros de entrenamiento que crea los directorios de salida para el modelo entrenado.  \cite{}}
-  \label{figure:Resultado 1}  % assign a unique label to each figure 
+  \label{figure:Configuraciónes de parámetros}  % assign a unique label to each figure 
 \end{figure}
 %---------------------------------------------------------------------------
-\section{Configuración de los parámetros del código y entrenamiento}\label{section:Configuración de los parámetros del código} 
+\subsection{Configuración de los parámetros del código y entrenamiento}\label{section:Configuración de los parámetros del código} 
 Posteriormente se configuran los parámetros del código para entrenar con los datos un modelo sobre nanoGPT con ciclos de entrenamiento. Para ello se crea finalmente y se evalúan las respuestas y se propone una interfaz para el prototipo con un enfoque MVC.
 %-------------------------------------------------------------------------------
-\subsection{Configuración 1}\label{section:Configuración de los parámetros del código} 
+\subsubsection{Configuración 1}\label{section:Configuración de los parámetros del código} 
 \begin{itemize}
         \item   Objetivo: Ejecutar el entrenamiento de manera más rápida al reducir el número máximo de iteraciones y ajustar otros parámetros.
         \item   Explicación: Esta configuración aumenta el número de capas (n-layer) y cabezas de atención (n-head) a 12 para proporcionar una capacidad de representación más alta. El tamaño del lote (batch-size) se incrementa a 64 para aprovechar mejor los recursos de la CPU. Se reduce el número máximo de iteraciones (max-iters) a 1000 para acelerar el entrenamiento. El número de iteraciones para reducir la tasa de aprendizaje (lr-decay-iters) se establece en 1000. Se mantiene un tamaño de bloque (block-size) de 128 y una dimensión del espacio de embedding (n-embd) de 512 para mantener una representación adecuada del texto. La probabilidad de dropout (dropout) se establece en 0.2 para regularizar el modelo durante el entrenamiento.
@@ -53,7 +48,7 @@ Posteriormente se configuran los parámetros del código para entrenar con los d
   \label{figure:Resultado 1}  % assign a unique label to each figure 
 \end{figure}
 %------------------------------------------------------------------------------
-\subsection{Configuración 2}\label{section:Configuración de los parámetros del código} 
+\subsubsection{Configuración 2}\label{section:Configuración de los parámetros del código} 
     \begin{itemize}
         \item   Objetivo: Evaluar el rendimiento y la eficiencia de un modelo ligero en el conjunto de datos proporcionado.
         \item   Explicación: Esta configuración se centra en entrenar un modelo con una arquitectura más simple y menos parámetros para tareas de clasificación en el conjunto de datos de seguridad que permitan acercar. Se utiliza un tamaño de bloque más pequeño (block-size) para limitar el contexto de los caracteres anteriores. 
@@ -191,13 +186,6 @@ Posteriormente se configuran los parámetros del código para entrenar con los d
             \label{figure:Resultado 1}  % assign a unique label to each figure 
             \end{figure}
     \end{itemize}
+%---------------------------------------------------------------------------
 %------------------------------------------------------------------------------
-\subsection{Configuración del modelo a prestaciones del hardware subyacente.}\label{section:Adaptación de modelo nanoGPT}
 
-%---------------------------------------------------------------------------
-\section{Aplicación de entrenamiento al modelo}\label{section:Aplicación de entrenamiento al modelo}
-
-\subsection{Entrenamiento}\label{section:Aplicación de entrenamiento al modelo}
-\subsection{Optimización}\label{section:Aplicación de entrenamiento al modelo}
-
-%---------------------------------------------------------------------------
