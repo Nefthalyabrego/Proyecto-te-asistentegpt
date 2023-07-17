@@ -2,68 +2,70 @@
 
 %---------------------------------------------------------------------------
 \subsection{Creación de conjunto de datos de entrenamiento y adaptación de nanoGPT}\label{section:Creación de conjunto de datos con fuentes de internet} 
-El conjunto de datos contiene recomendaciones y prácticas de seguridad clasificadas por categorías como amenazas, ataques y malware.El conjunto es procesado desde un archivo CSV con las columnas y registros. Se realiza la extración de datos con la librería pandas a un dataframe o estructura de datos para el posterior procesamiento.\cite{Reiss2021}
+El conjunto de datos contiene recomendaciones y prácticas de seguridad clasificadas por categorías como amenazas, ataques y malware, figura \ref{figure:Conjunto de datos}. Esta clasificación permite que el modelo mejore clasifique mejor la entrada de texto dada.
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.7\linewidth]{./doc/Conjunto de datos etiquetado.png} 
    \caption{Características del conjunto de datos etiquetados \cite{}}
   \label{figure:Conjunto de datos}  % assign a unique label to each figure 
 \end{figure}
+%---Parrafo
+El conjunto es se extrae desde el archivo CSV con el uso de la librería pandas a un dataframe. Figura \ref{figure:Extraxión de datos del csv}.\cite{Reiss2021}
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/02-cr.png} 
    \caption{Configuración para extraer el conjunto de datos en un dataframe y preparación de los datos.  \cite{}}
   \label{figure:Extraxión de datos del csv}  % assign a unique label to each figure 
 \end{figure}
-La etiquetación de los registros permite que el modelo pueda identificar la categoría de clasificación, figura \ref{figure:Conjunto de datos}. Este conjunto se carga para la tokenización, proceso que permite dividir las cadenas en piezas para crear tokens.[25] El entrenamiento con NanoGPT creando las carpetas que albergan el dataset en formato CSV, luego se procesa para el entrenamiento con iteraciones repetidas.[27]
+Para el entrenamiento con NanoGPT se crean las carpetas del conjunto de datos, se realiza el proceso de mapeo de caracteres a enteros también llamado vectorización para representar los datos de texto en secuencias de números. \cite{GenerGediz2020}
+En la figura \ref{figure:Etapa de encoder}
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/03-cr.png} 
    \caption{procesamiento crea  ficheros de validación, entrenamiento y un meta modelo de apoyo.  \cite{}}
   \label{figure:Etapa de encoder}  % assign a unique label to each figure 
 \end{figure}
+%Parrafo-----
+El procesamiento anterior crea ficheros de validación, entrenamiento y uno que contiene metadatos de los diccionarios para transformar de índices a palabras y viceversa para apoyo al proceso de condificación y decodificación.
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.8\linewidth]{./doc/04-cr.png} 
    \caption{Configuraciones y parámetros de entrenamiento que crea los directorios de salida para el modelo entrenado.  \cite{}}
   \label{figure:Configuraciónes de parámetros}  % assign a unique label to each figure 
 \end{figure}
+\clearpage
 %---------------------------------------------------------------------------
 \subsection{Configuración de los parámetros del código y entrenamiento}\label{section:Configuración y entrenamiento} 
-Posteriormente se configuran los parámetros del código para entrenar con los datos un modelo sobre nanoGPT con ciclos de entrenamiento. Para ello se crea finalmente y se evalúan las respuestas y se propone una interfaz para el prototipo con un enfoque MVC.
+Posteriormente se configuran dos modelos de prueba con variaciones de parámetros basados intervalos de entrenamiento, tamaños de bloque de texto procesado, cantidad de lotes en paralelo, ciclos de entrenamiento. 
+Estas se realizado sobre la CPU, por lo que las configuraciones están centradas en entrenamientos de bajo rendimiento, el propósito es verificar configuraciones que permitan al modelo clasificar la entrada de texto y el conjunto entrenado.
 %-------------------------------------------------------------------------------
-\subsubsection{Configuración 1}\label{section:Configuración 1} 
-\begin{itemize}
-        \item   Objetivo: Ejecutar el entrenamiento de manera más rápida al reducir el número máximo de iteraciones y ajustar otros parámetros.
-        \item   Explicación: Esta configuración aumenta el número de capas (n-layer) y cabezas de atención (n-head) a 12 para proporcionar una capacidad de representación más alta. El tamaño del lote (batch-size) se incrementa a 64 para aprovechar mejor los recursos de la CPU. Se reduce el número máximo de iteraciones (max-iters) a 1000 para acelerar el entrenamiento. El número de iteraciones para reducir la tasa de aprendizaje (lr-decay-iters) se establece en 1000. Se mantiene un tamaño de bloque (block-size) de 128 y una dimensión del espacio de embedding (n-embd) de 512 para mantener una representación adecuada del texto. La probabilidad de dropout (dropout) se establece en 0.2 para regularizar el modelo durante el entrenamiento.
-    \end{itemize}
-    \begin{figure}[H]
-   \centering % figure is centered on the page
-       \includegraphics[width=0.65\linewidth]{./rp/15-cp.png} 
-   \caption{Proceso de entrenamiento de modelo 1\cite{}}
-  \label{figure:Entrenamiento de modelo 1}  % assign a unique label to each figure 
-\end{figure}
 %------------------------------------------------------------------------------
-\subsubsection{Configuración 2}\label{section:Configuración de los parámetros del código} 
-    \begin{itemize}
-        \item   Objetivo: Evaluar el rendimiento y la eficiencia de un modelo ligero en el conjunto de datos proporcionado.
-        \item   Explicación: Esta configuración se centra en entrenar un modelo con una arquitectura más simple y menos parámetros para tareas de clasificación en el conjunto de datos de seguridad que permitan acercar. Se utiliza un tamaño de bloque más pequeño (block-size) para limitar el contexto de los caracteres anteriores. 
-        \item   Se reduce el número de capas (n-layer) y cabezas de atención (n-head) para disminuir la complejidad del modelo. El tamaño del lote (batch-size) también se reduce para adaptarse a recursos limitados.
-    \end{itemize}
+\subsubsection{Configuración parámetros}\label{section:Configuración de los parámetros del código} 
+En la figura \ref{figure:Configuraciones modelo entrenamiento 2} se asignan a los parámetros:
+\begin{enumerate}
+	\item Evaluación cada 50 iteraciones con subconjunto creado en el procesamiento, esto permite que el modelo se ajuste de ser necesario. también se establece un tamaño de bloque que permite procesar una secuencia de entrada , el tamaño de lote en 32 para establecer ejemplos que se procesan de forma paralela.
+	\item Secuencias de texto de tamaño en bloques de 128 que se procesan de manera secuencial, el lote de 32 para permitir cargas en paralelo.
+	\item Configuración de las capas de la red en 4 capas las cuales tienen cada una cuatro capas de atención.
+	\item Los vectores de incrustación en 256 para representar las palabras numéricamente vectores.
+	\item Para la red neuronal se utilizan 4 capas de profundidad y 4 capas de atención que dan al modelo capacidad para capturar diferentes partes del texto que pueden ser relevantes para la clasificación. 
+	\item Para establecer el tamaño de los vectores se establece en 256 para vectorizar una mayor cantidad de palabras en la oración  que permitan identificar representaciones significativas.
+	\item Por ultimo el parámetro para establecer las iteraciones de entrenamiento se establecen en 3000. 
+\end{enumerate} 
 \begin{figure}[H]
    \centering % figure is centered on the page
-       \includegraphics[width=0.65\linewidth]{./rp/05-cp.png} 
-   \caption{Configuraciones de entrenamiento de modelo 2  \cite{}}
+       \includegraphics[width=0.65\linewidth]{./doc/Proceso de entrenamiento en XCP-ng.png} 
+   \caption{Configuraciones de entrenamiento de modelo  \cite{}}
   \label{figure:Configuraciones modelo entrenamiento 2}  % assign a unique label to each figure 
 \end{figure}
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.65\linewidth]{./rp/06-cp.png} 
-   \caption{Proceso de entrenamiento de modelo 2\cite{}}
-  \label{figure:Proceso de entrenamiento del modelo 2}  % assign a unique label to each figure 
+   \caption{Proceso de entrenamiento de modelo\cite{}}
+  \label{figure:Proceso de entrenamiento del modelo}  % assign a unique label to each figure 
 \end{figure}
 %----------------------------------------------------------------------------
-\subsection{Validación del modelo Configuración 1}\label{section:Validación de prompt}
+\clearpage
+\subsection{Validación del modelo Configuración}\label{section:Validación de prompt}
 \subsubsection{ Prueba 1}\label{section:Validación del prototipo}
     \begin{itemize}
         \item   Top-k = 100

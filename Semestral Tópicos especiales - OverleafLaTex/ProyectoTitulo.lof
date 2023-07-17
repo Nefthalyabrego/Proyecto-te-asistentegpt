@@ -6,49 +6,48 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Configuración para extraer el conjunto de datos en un dataframe y preparación de los datos. \cite {}}}{11}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces procesamiento crea ficheros de validación, entrenamiento y un meta modelo de apoyo. \cite {}}}{12}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Configuraciones y parámetros de entrenamiento que crea los directorios de salida para el modelo entrenado. \cite {}}}{13}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Proceso de entrenamiento de modelo 1\cite {}}}{14}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Configuraciones de entrenamiento de modelo 2 \cite {}}}{15}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Proceso de entrenamiento de modelo 2\cite {}}}{16}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Resultados de la Prueba 1\cite {}}}{17}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Resultados de la Prueba 2\cite {}}}{17}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Resultados de la Prueba 3\cite {}}}{17}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultados de la Prueba 4\cite {}}}{18}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Resultados de la Prueba 1\cite {}}}{18}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Resultados de la Prueba 2\cite {}}}{19}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Resultados de la Prueba 3.1\cite {}}}{19}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Resultados de la Prueba 3.2 y 3.3\cite {}}}{20}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Resultados de la Prueba 3.4\cite {}}}{20}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Resultados de la Prueba 4.1\cite {}}}{21}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Resultados de la Prueba 4.2\cite {}}}{21}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Resultados de la Prueba 4.3\cite {}}}{21}{figure.3.19}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Configuraciones de entrenamiento de modelo \cite {}}}{15}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Proceso de entrenamiento de modelo\cite {}}}{15}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Resultados de la Prueba 1\cite {}}}{16}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Resultados de la Prueba 2\cite {}}}{16}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Resultados de la Prueba 3\cite {}}}{17}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Resultados de la Prueba 4\cite {}}}{17}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultados de la Prueba 1\cite {}}}{18}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Resultados de la Prueba 2\cite {}}}{18}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Resultados de la Prueba 3.1\cite {}}}{19}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Resultados de la Prueba 3.2 y 3.3\cite {}}}{19}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Resultados de la Prueba 3.4\cite {}}}{19}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Resultados de la Prueba 4.1\cite {}}}{20}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Resultados de la Prueba 4.2\cite {}}}{20}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Resultados de la Prueba 4.3\cite {}}}{20}{figure.3.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {I.1}{\ignorespaces Titulo de la Encuesta \cite {}}}{27}{figure.Alph1.1}%
-\contentsline {figure}{\numberline {I.2}{\ignorespaces Primera pregunta de la encuesta \cite {}}}{27}{figure.Alph1.2}%
-\contentsline {figure}{\numberline {I.3}{\ignorespaces Segunda pregunta de la encuesta \cite {}}}{28}{figure.Alph1.3}%
-\contentsline {figure}{\numberline {I.4}{\ignorespaces Tercera pregunta de la encuesta \cite {}}}{28}{figure.Alph1.4}%
-\contentsline {figure}{\numberline {I.5}{\ignorespaces Cuarta pregunta de la encuesta \cite {}}}{28}{figure.Alph1.5}%
-\contentsline {figure}{\numberline {I.6}{\ignorespaces Quinta pregunta de la encuesta \cite {}}}{29}{figure.Alph1.6}%
-\contentsline {figure}{\numberline {I.7}{\ignorespaces Sexta pregunta de la encuesta \cite {}}}{29}{figure.Alph1.7}%
-\contentsline {figure}{\numberline {I.8}{\ignorespaces Séptima pregunta de la encuesta \cite {}}}{29}{figure.Alph1.8}%
-\contentsline {figure}{\numberline {I.9}{\ignorespaces Octava pregunta de la encuesta \cite {}}}{30}{figure.Alph1.9}%
-\contentsline {figure}{\numberline {I.10}{\ignorespaces Novena pregunta de la encuesta \cite {}}}{30}{figure.Alph1.10}%
-\contentsline {figure}{\numberline {I.11}{\ignorespaces Décima pregunta de la encuesta \cite {}}}{31}{figure.Alph1.11}%
-\contentsline {figure}{\numberline {I.12}{\ignorespaces Undécima pregunta de la encuesta \cite {}}}{31}{figure.Alph1.12}%
-\contentsline {figure}{\numberline {I.13}{\ignorespaces Duodécima pregunta de la encuesta \cite {}}}{31}{figure.Alph1.13}%
-\contentsline {figure}{\numberline {I.14}{\ignorespaces Décima Tercera pregunta de la encuesta \cite {}}}{32}{figure.Alph1.14}%
-\contentsline {figure}{\numberline {I.15}{\ignorespaces Décima Cuarta pregunta de la encuesta \cite {}}}{32}{figure.Alph1.15}%
-\contentsline {figure}{\numberline {I.16}{\ignorespaces Gráfica del Resultado de la Primera pregunta \cite {}}}{33}{figure.Alph1.16}%
-\contentsline {figure}{\numberline {I.17}{\ignorespaces Gráfica del Resultado de la Segunda pregunta \cite {}}}{33}{figure.Alph1.17}%
-\contentsline {figure}{\numberline {I.18}{\ignorespaces Gráfica del Resultado de la Tercera pregunta \cite {}}}{34}{figure.Alph1.18}%
-\contentsline {figure}{\numberline {I.19}{\ignorespaces Gráfica del Resultado de la Cuarta pregunta \cite {}}}{34}{figure.Alph1.19}%
-\contentsline {figure}{\numberline {I.20}{\ignorespaces Gráfica del Resultado de la Quinta pregunta \cite {}}}{34}{figure.Alph1.20}%
-\contentsline {figure}{\numberline {I.21}{\ignorespaces Gráfica del Resultado de la Sexta pregunta \cite {}}}{35}{figure.Alph1.21}%
-\contentsline {figure}{\numberline {I.22}{\ignorespaces Gráfica del Resultado de la Séptima pregunta \cite {}}}{35}{figure.Alph1.22}%
-\contentsline {figure}{\numberline {I.23}{\ignorespaces Gráfica del Resultado de la Octava pregunta \cite {}}}{35}{figure.Alph1.23}%
-\contentsline {figure}{\numberline {I.24}{\ignorespaces Gráfica del Resultado de la Novena pregunta \cite {}}}{36}{figure.Alph1.24}%
-\contentsline {figure}{\numberline {I.25}{\ignorespaces Gráfica del Resultado de la Décima pregunta \cite {}}}{36}{figure.Alph1.25}%
-\contentsline {figure}{\numberline {I.26}{\ignorespaces Gráfica del Resultado de la Undécima pregunta \cite {}}}{36}{figure.Alph1.26}%
-\contentsline {figure}{\numberline {I.27}{\ignorespaces Gráfica del Resultado de la Duodécima pregunta \cite {}}}{37}{figure.Alph1.27}%
-\contentsline {figure}{\numberline {I.28}{\ignorespaces Gráfica del Resultado de la Décima Tercera pregunta \cite {}}}{37}{figure.Alph1.28}%
-\contentsline {figure}{\numberline {I.29}{\ignorespaces Gráfica del Resultado de la Décima Cuarta pregunta \cite {}}}{37}{figure.Alph1.29}%
+\contentsline {figure}{\numberline {I.1}{\ignorespaces Titulo de la Encuesta \cite {}}}{26}{figure.Alph1.1}%
+\contentsline {figure}{\numberline {I.2}{\ignorespaces Primera pregunta de la encuesta \cite {}}}{26}{figure.Alph1.2}%
+\contentsline {figure}{\numberline {I.3}{\ignorespaces Segunda pregunta de la encuesta \cite {}}}{27}{figure.Alph1.3}%
+\contentsline {figure}{\numberline {I.4}{\ignorespaces Tercera pregunta de la encuesta \cite {}}}{27}{figure.Alph1.4}%
+\contentsline {figure}{\numberline {I.5}{\ignorespaces Cuarta pregunta de la encuesta \cite {}}}{27}{figure.Alph1.5}%
+\contentsline {figure}{\numberline {I.6}{\ignorespaces Quinta pregunta de la encuesta \cite {}}}{28}{figure.Alph1.6}%
+\contentsline {figure}{\numberline {I.7}{\ignorespaces Sexta pregunta de la encuesta \cite {}}}{28}{figure.Alph1.7}%
+\contentsline {figure}{\numberline {I.8}{\ignorespaces Séptima pregunta de la encuesta \cite {}}}{28}{figure.Alph1.8}%
+\contentsline {figure}{\numberline {I.9}{\ignorespaces Octava pregunta de la encuesta \cite {}}}{29}{figure.Alph1.9}%
+\contentsline {figure}{\numberline {I.10}{\ignorespaces Novena pregunta de la encuesta \cite {}}}{29}{figure.Alph1.10}%
+\contentsline {figure}{\numberline {I.11}{\ignorespaces Décima pregunta de la encuesta \cite {}}}{30}{figure.Alph1.11}%
+\contentsline {figure}{\numberline {I.12}{\ignorespaces Undécima pregunta de la encuesta \cite {}}}{30}{figure.Alph1.12}%
+\contentsline {figure}{\numberline {I.13}{\ignorespaces Duodécima pregunta de la encuesta \cite {}}}{30}{figure.Alph1.13}%
+\contentsline {figure}{\numberline {I.14}{\ignorespaces Décima Tercera pregunta de la encuesta \cite {}}}{31}{figure.Alph1.14}%
+\contentsline {figure}{\numberline {I.15}{\ignorespaces Décima Cuarta pregunta de la encuesta \cite {}}}{31}{figure.Alph1.15}%
+\contentsline {figure}{\numberline {I.16}{\ignorespaces Gráfica del Resultado de la Primera pregunta \cite {}}}{32}{figure.Alph1.16}%
+\contentsline {figure}{\numberline {I.17}{\ignorespaces Gráfica del Resultado de la Segunda pregunta \cite {}}}{32}{figure.Alph1.17}%
+\contentsline {figure}{\numberline {I.18}{\ignorespaces Gráfica del Resultado de la Tercera pregunta \cite {}}}{33}{figure.Alph1.18}%
+\contentsline {figure}{\numberline {I.19}{\ignorespaces Gráfica del Resultado de la Cuarta pregunta \cite {}}}{33}{figure.Alph1.19}%
+\contentsline {figure}{\numberline {I.20}{\ignorespaces Gráfica del Resultado de la Quinta pregunta \cite {}}}{33}{figure.Alph1.20}%
+\contentsline {figure}{\numberline {I.21}{\ignorespaces Gráfica del Resultado de la Sexta pregunta \cite {}}}{34}{figure.Alph1.21}%
+\contentsline {figure}{\numberline {I.22}{\ignorespaces Gráfica del Resultado de la Séptima pregunta \cite {}}}{34}{figure.Alph1.22}%
+\contentsline {figure}{\numberline {I.23}{\ignorespaces Gráfica del Resultado de la Octava pregunta \cite {}}}{34}{figure.Alph1.23}%
+\contentsline {figure}{\numberline {I.24}{\ignorespaces Gráfica del Resultado de la Novena pregunta \cite {}}}{35}{figure.Alph1.24}%
+\contentsline {figure}{\numberline {I.25}{\ignorespaces Gráfica del Resultado de la Décima pregunta \cite {}}}{35}{figure.Alph1.25}%
+\contentsline {figure}{\numberline {I.26}{\ignorespaces Gráfica del Resultado de la Undécima pregunta \cite {}}}{35}{figure.Alph1.26}%
+\contentsline {figure}{\numberline {I.27}{\ignorespaces Gráfica del Resultado de la Duodécima pregunta \cite {}}}{36}{figure.Alph1.27}%
+\contentsline {figure}{\numberline {I.28}{\ignorespaces Gráfica del Resultado de la Décima Tercera pregunta \cite {}}}{36}{figure.Alph1.28}%
+\contentsline {figure}{\numberline {I.29}{\ignorespaces Gráfica del Resultado de la Décima Cuarta pregunta \cite {}}}{36}{figure.Alph1.29}%

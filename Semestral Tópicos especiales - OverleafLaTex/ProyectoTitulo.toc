@@ -20,24 +20,23 @@
 \contentsline {section}{\numberline {3.1}Materiales y métodos para la recolección de datos y análisis de la población.}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Metodología y materiales para el desarrollo del modelo GPT.}{10}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Creación de conjunto de datos de entrenamiento y adaptación de nanoGPT}{10}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Configuración de los parámetros del código y entrenamiento}{13}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Configuración 1}{13}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Configuración 2}{14}{subsubsection.3.2.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Validación del modelo Configuración 1}{16}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.2}Configuración de los parámetros del código y entrenamiento}{14}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Configuración parámetros}{14}{subsubsection.3.2.2.1}%
+\contentsline {subsection}{\numberline {3.2.3}Validación del modelo Configuración}{16}{subsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.3.1} Prueba 1}{16}{subsubsection.3.2.3.1}%
-\contentsline {subsection}{\numberline {3.2.4}Validación del modelo Configuración 2}{18}{subsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.4.1} Prueba 1}{18}{subsubsection.3.2.4.1}%
+\contentsline {subsection}{\numberline {3.2.4}Validación del modelo Configuración 2}{17}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1} Prueba 1}{17}{subsubsection.3.2.4.1}%
 \contentsline {subsubsection}{\numberline {3.2.4.2} Prueba 2}{18}{subsubsection.3.2.4.2}%
-\contentsline {subsubsection}{\numberline {3.2.4.3} Prueba 3}{19}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.4.3} Prueba 3}{18}{subsubsection.3.2.4.3}%
 \contentsline {subsubsection}{\numberline {3.2.4.4} Prueba 4}{20}{subsubsection.3.2.4.4}%
-\contentsline {chapter}{\numberline {4}Resultados y discusión}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Resultados}{22}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Resultados de prompts}{22}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Limitantes}{22}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Discusión }{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Conclusión}{23}{section.4.3}%
-\contentsline {chapter}{Bibliografía}{24}{section.4.3}%
-\contentsline {chapter}{Anexos}{26}{section*.6}%
-\contentsline {chapter}{\numberline {I}Encuesta}{27}{appendix.Alph1}%
-\contentsline {subsection}{\numberline {I.0.1}Encuesta sobre conciencia digital}{27}{subsection.Alph1.0.1}%
-\contentsline {subsection}{\numberline {I.0.2}Resultados de la Encuesta}{33}{subsection.Alph1.0.2}%
+\contentsline {chapter}{\numberline {4}Resultados y discusión}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Resultados}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Resultados de prompts}{21}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Limitantes}{21}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Discusión }{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Conclusión}{22}{section.4.3}%
+\contentsline {chapter}{Bibliografía}{23}{section.4.3}%
+\contentsline {chapter}{Anexos}{25}{section*.6}%
+\contentsline {chapter}{\numberline {I}Encuesta}{26}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {I.0.1}Encuesta sobre conciencia digital}{26}{subsection.Alph1.0.1}%
+\contentsline {subsection}{\numberline {I.0.2}Resultados de la Encuesta}{32}{subsection.Alph1.0.2}%
