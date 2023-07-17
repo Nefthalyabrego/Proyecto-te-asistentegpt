@@ -4,6 +4,13 @@
 A, R. and H, S. (2020).
 \newblock The importance of cybersecurity education in school.
 
+\bibitem[{AIG}, 2022]{AIG2022}
+{AIG} (2022).
+\newblock Autoridad nacional para la innovación gubernamental.
+\newblock
+  \url{https://aig.gob.pa/analizan-el-tren-de-defensa-ante-las-amenazas-de-la-era-digital/#:~:text=En%20el%202021%20se%20registraron,seguridad%20que%20tienen%20las%20empresas}.
+\newblock Accessed Jun. 19, 2023.
+
 \bibitem[Alex, 2023]{Alex2023}
 Alex (2023).
 \newblock Language models explained.
@@ -26,13 +33,6 @@ Brown, T.~B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
 \bibitem[Eslavova, 2019]{Eslavova2019}
 Eslavova, M. (2019).
 \newblock De la ciudadanía tradicional a la ciudadanía digital | epale.
-
-\bibitem[Forms, 2023]{GOOGLE-FORMS}
-Forms, G. (2023).
-\newblock Inserting images.
-\newblock
-  \url{https://docs.google.com/forms/d/18JVEL9Es6ae_lvm6pQhj0e5W464sZx06enShH_QZqjs/edit}.
-\newblock Accessed: May 30, 2023.
 
 \bibitem[Francis, 2022]{Francis2022}
 Francis, J.~P. (2022).
@@ -81,6 +81,12 @@ Urribarri, R. (2022).
 \newblock Panamá: cobertura informativa de la brecha digital durante la
   pandemia por covid-19.
 \newblock {\em Anuario de Estudios Centroamericanos}, 48:1--16.
+
+\bibitem[Varela~Tapia et~al., 2022]{VarelaTapia2022}
+Varela~Tapia, E., Sangacha-Tapia, L., Acosta, I., and Celi, R. (2022).
+\newblock Inteligencia artificial conversacional para el diseño de un
+  asistente virtual interactivo.
+\newblock In {\em Nombre de la conferencia}, pages 237--241.
 
 \bibitem[Yang, 2020]{Yang2020}
 Yang, S. (2020).
