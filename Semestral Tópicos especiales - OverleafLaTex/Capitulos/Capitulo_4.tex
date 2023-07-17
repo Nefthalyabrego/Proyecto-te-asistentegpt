@@ -1,7 +1,7 @@
 %\chapter{Desarrollo de propuesta de prototipo}\label{cap:capitulo4}
 
 %---------------------------------------------------------------------------
-\subsection{Creación de conjunto de datos de entrenamiento y adaptación de nanoGPT}\label{section:Creación de conjunto de datos con fuentes de internet} 
+\subsection{Creación de conjunto de datos de entrenamiento y adaptación de nanoGPT}\label{section:Creacion de conjunto de datos} 
 Para la propuesta del prototipo objeto de esta investigación se plantea la creación de un conjunto de datos a partir de textos clasificados por categoría de amenazas en internet y de medios digitales. Para ello se tiene una columna de texto plano en formato CSV con contenido sobre la recomendación y una etiqueta de clasificación de la recomendación. Esta columna es procesada por la librería pandas que permite cargar los datos en un dataframe o estructura de datos para el posterior procesamiento.\cite{Reiss2021} \\
 
 \begin{figure}[H]
@@ -33,10 +33,10 @@ Este conjunto luego se carga para la tokenización, proceso que permite dividir 
   \label{figure:Configuraciónes de parámetros}  % assign a unique label to each figure 
 \end{figure}
 %---------------------------------------------------------------------------
-\subsection{Configuración de los parámetros del código y entrenamiento}\label{section:Configuración de los parámetros del código} 
+\subsection{Configuración de los parámetros del código y entrenamiento}\label{figure:Entrenamiento} 
 Posteriormente se configuran los parámetros del código para entrenar con los datos un modelo sobre nanoGPT con ciclos de entrenamiento. Para ello se crea finalmente y se evalúan las respuestas y se propone una interfaz para el prototipo con un enfoque MVC.
 %-------------------------------------------------------------------------------
-\subsubsection{Configuración 1}\label{section:Configuración de los parámetros del código} 
+\subsubsection{Configuración 1}\label{section:Configuracion1} 
 \begin{itemize}
         \item   Objetivo: Ejecutar el entrenamiento de manera más rápida al reducir el número máximo de iteraciones y ajustar otros parámetros.
         \item   Explicación: Esta configuración aumenta el número de capas (n-layer) y cabezas de atención (n-head) a 12 para proporcionar una capacidad de representación más alta. El tamaño del lote (batch-size) se incrementa a 64 para aprovechar mejor los recursos de la CPU. Se reduce el número máximo de iteraciones (max-iters) a 1000 para acelerar el entrenamiento. El número de iteraciones para reducir la tasa de aprendizaje (lr-decay-iters) se establece en 1000. Se mantiene un tamaño de bloque (block-size) de 128 y una dimensión del espacio de embedding (n-embd) de 512 para mantener una representación adecuada del texto. La probabilidad de dropout (dropout) se establece en 0.2 para regularizar el modelo durante el entrenamiento.
