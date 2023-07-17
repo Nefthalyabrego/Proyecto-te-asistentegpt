@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Dataset consist of CVE&#x27;s from 2002-21 and all three views of CWE" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="software,text,data analytics,classification,public safety" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" type="text/javascript">
+    window["pageRequestStartTime"] = 1685948021912;
+    window["pageRequestEndTime"] = 1685948022125;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/krooz0/cve-and-cwe-mapping-dataset" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=81f9b0bf40d37d37cc8f" />
+  
+    
+ 
+      <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/krooz0/cve-and-cwe-mapping-dataset" />
+    <meta property="og:title" content="CVE and CWE mapping Dataset(2021)" />
+    <meta property="og:description" content="Dataset consist of CVE&#x27;s from 2002-21 and all three views of CWE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/1830911/2987614/f0dc3a27ecbb3c7978201c39d95ba0ba/dataset-card.png?t=2021-12-30-13-44-52" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+        <meta name="twitter:creator" content="@kirushikesh" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="7hqw+AaGRQTJzgmM9d0OGQ==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"CVE and CWE mapping Dataset(2021)","description":"## **Please give an Upvote if you feel that the data is Useful and Amazing. Your Upvotes will Motivate me to contribute more to this platform**😊 \n\n### Context\n\n&gt; A **[software vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computing))** is a defect in software that could allow an attacker to gain control of a system. These defects can be because of the way the software is designed, or because of a flaw in the way that it’s coded.\n\nAn attacker can use a software flaw to steal or alter sensitive data, join a botnet, install a backdoor, or plant other types of malware by exploiting a software flaw. In addition, once an attacker has gained access to one network host, they can utilize that host to gain access to other hosts on the same network.\n\nThe **[National Vulnerability Archive](https://nvd.nist.gov/)** (NVD) is the world's largest and most comprehensive database of publicly disclosed vulnerabilities in commercial and open source software. When an attacker discovers that your software is vulnerable to a known flaw, he or she will have a better understanding of what types of attacks to execute against it. If the attack is successful, the attacker will be able to execute malicious commands on the target system. Although the **National Vulnerability Database** and the **Common Vulnerabilities and Exposures** (CVE) list are commonly used interchangeably, there are notable discrepancies between the two databases despite their close association. The CVE dictionary was created by the non-profit MITRE Corporation in 1999, five years before the NVD.\n\nCVE stands for [**Common Vulnerabilities and Exposures**](https://cve.mitre.org/), and it's a standard reporting format for publicly known security flaws. CVE's primary goal is to standardize how a security vulnerability or risk is identified - with a number, a description, and at least one public reference. CVE is open to the public and is free to use. [CVE-2020-16891](https://nvd.nist.gov/vuln/detail/CVE-2020-16891) is an example of a CVE ID, which contains the CVE prefix, the year the CVE ID was assigned or the year the vulnerability was made public, and the sequence number digits. The CVE description comprises information such as the affected product's and vendor's names, a list of impacted versions, the vulnerability type, the impact, the access required for an attacker to exploit the issue, and the critical code components. The CVE reference includes the vulnerability reports, advisories, or sources that detail the vulnerability and the exploitation that could occur.\n\nThe distinction between CVE and CWE is that one addresses symptoms while the other addresses the root of the problem. The CVE is just a list of currently known flaws with specific systems and products, whereas the CWE categorizes categories of software vulnerabilities. The CWE is well-suited to identifying the most dangerous security flaws. The categories can assist you figure out what's causing your systems to fail and how to solve it. When it comes to which conditions make you the most vulnerable, it's usually the most common.\n\nThe [**Software Development** representation](https://cwe.mitre.org/data/definitions/699.html) groups flaws around ideas used or encountered frequently in software development, whereas the **[Hardware Design](https://cwe.mitre.org/data/definitions/1194.html)** representation groups flaws around concepts used or encountered frequently in hardware design. Using several layers of abstraction, the **[Research Concept](https://cwe.mitre.org/data/definitions/1000.html)** representation promotes research into different sorts of weaknesses and arranges items by actions. Each hierarchical representation is utilized to navigate the complete list based on your particular point of view.\n\n### Content\n\nThe dataset was collected from **MITRE** and **NVD ** organizations webpage. \n\n- **Global_Dataset.xlsx**  : This dataset comprises all of the vulnerabilities reported in the NVD database between 2002 and 2021. The CVE ID, vulnerability description, CVSS scores, severity of the vulnerability, and corresponding CWE IDs are all included in the dataset.\n\n- **synonym_mapping.json** : It contains synonyms for some of the cyber security terms that were used in vulnerability descriptions reported by NVD, which can be found in the [CWE Glossary](https://cwe.mitre.org/documents/glossary/index.html). The words in the JSON file were the stemmed word from its original form. (It can be used as a additional preprocessing step to reduce the words domain)\n\nEach CWE List View has corresponding CWE data, such as ID, Name, Description, Extended Description, and so on. It also has a **hierarchical structure**, with **cwe_paths** containing all of the different pathways from the root to the hierarchy's nodes. **Vulnerability Dataset** is a dataset of all vulnerabilities that corresponds to a CWE in the view.\n\n## What can be done with this?\n\nThe **CVE-to-CWE classification** is an active research area various research papers are published. The CVE-to-CWE mapping is an multi label node classification and Non-mandatory leaf node prediction problem were the CWE's in each view were aligned in a hierarchical directed acyclic graph. The Global_Dataset can be further used for various applications such as Data Analyzis, Data Visualisation, EDA, NLP projects, Clustering , etc.\n\n### Some Research Works on CVE Classification\n\n1. [ThreatZoom: Hierarchical Neural Network for CVEs to CWEs Classification](https://www.researchgate.net/publication/344013865_ThreatZoom_Hierarchical_Neural_Network_for_CVEs_to_CWEs_Classification)\n2. [V2W-BERT: A Framework for Effective Hierarchical Multiclass\nClassification of Software Vulnerabilities](https://arxiv.org/pdf/2102.11498.pdf)\n3. [A Study on the Classification of Common Vulnerabilities and Exposures using Naïve Bayes](https://link.springer.com/chapter/10.1007%2F978-3-319-49106-6_65)","url":"https://www.kaggle.com/krooz0/cve-and-cwe-mapping-dataset","version":4,"keywords":["subject, science and technology, computer science, software","data type, text","technique, data analytics","task, classification","subject, people and society, law, government, public safety"],"license":{"@type":"CreativeWork","name":"CC BY-NC-SA 4.0","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/"},"identifier":["1830911"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Kirushikesh DB","url":"https://www.kaggle.com/krooz0","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6474735-kg.jpeg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/krooz0/cve-and-cwe-mapping-dataset/download?datasetVersionNumber=4","contentSize":"32586403 bytes"}],"commentCount":1,"dateModified":"2021-12-31T06:27:34.643Z","discussionUrl":"https://www.kaggle.com/krooz0/cve-and-cwe-mapping-dataset/discussion","alternateName":"Dataset consist of CVE's from 2002-21 and all three views of CWE","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1830911/2987614/f0dc3a27ecbb3c7978201c39d95ba0ba/dataset-card.png?t=2021-12-30-13-44-52","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":1},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":868},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":7686},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":45}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="7hqw+AaGRQTJzgmM9d0OGQ==" src="/static/assets/runtime.js?v=603aa75426d2f2975c56" data-turbolinks-track="reload"></script>
+  <script nonce="7hqw+AaGRQTJzgmM9d0OGQ==" src="/static/assets/vendor.js?v=96642a6758af2c414ac1" data-turbolinks-track="reload"></script>
+  <script nonce="7hqw+AaGRQTJzgmM9d0OGQ==" src="/static/assets/app.js?v=44cd576480dad3d979ca" data-turbolinks-track="reload"></script>
+    <script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">NEFTHALY ABREGO</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">2789500.00000000</mso:Order>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">NEFTHALY ABREGO</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:ContentTypeId msdt:dt="string">0x0101009FD5A8C8D7A8054BBDF503FEEDC862B9</mso:ContentTypeId>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="7hqw+AaGRQTJzgmM9d0OGQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":1830911,"slug":"cve-and-cwe-mapping-dataset","title":"CVE and CWE mapping Dataset(2021)","description":"## **Please give an Upvote if you feel that the data is Useful and Amazing. Your Upvotes will Motivate me to contribute more to this platform**\uD83D\uDE0A \n\n### Context\n\n\u0026gt; A **[software vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computing))** is a defect in software that could allow an attacker to gain control of a system. These defects can be because of the way the software is designed, or because of a flaw in the way that it\u2019s coded.\n\nAn attacker can use a software flaw to steal or alter sensitive data, join a botnet, install a backdoor, or plant other types of malware by exploiting a software flaw. In addition, once an attacker has gained access to one network host, they can utilize that host to gain access to other hosts on the same network.\n\nThe **[National Vulnerability Archive](https://nvd.nist.gov/)** (NVD) is the world\u0027s largest and most comprehensive database of publicly disclosed vulnerabilities in commercial and open source software. When an attacker discovers that your software is vulnerable to a known flaw, he or she will have a better understanding of what types of attacks to execute against it. If the attack is successful, the attacker will be able to execute malicious commands on the target system. Although the **National Vulnerability Database** and the **Common Vulnerabilities and Exposures** (CVE) list are commonly used interchangeably, there are notable discrepancies between the two databases despite their close association. The CVE dictionary was created by the non-profit MITRE Corporation in 1999, five years before the NVD.\n\nCVE stands for [**Common Vulnerabilities and Exposures**](https://cve.mitre.org/), and it\u0027s a standard reporting format for publicly known security flaws. CVE\u0027s primary goal is to standardize how a security vulnerability or risk is identified - with a number, a description, and at least one public reference. CVE is open to the public and is free to use. [CVE-2020-16891](https://nvd.nist.gov/vuln/detail/CVE-2020-16891) is an example of a CVE ID, which contains the CVE prefix, the year the CVE ID was assigned or the year the vulnerability was made public, and the sequence number digits. The CVE description comprises information such as the affected product\u0027s and vendor\u0027s names, a list of impacted versions, the vulnerability type, the impact, the access required for an attacker to exploit the issue, and the critical code components. The CVE reference includes the vulnerability reports, advisories, or sources that detail the vulnerability and the exploitation that could occur.\n\nThe distinction between CVE and CWE is that one addresses symptoms while the other addresses the root of the problem. The CVE is just a list of currently known flaws with specific systems and products, whereas the CWE categorizes categories of software vulnerabilities. The CWE is well-suited to identifying the most dangerous security flaws. The categories can assist you figure out what\u0027s causing your systems to fail and how to solve it. When it comes to which conditions make you the most vulnerable, it\u0027s usually the most common.\n\nThe [**Software Development** representation](https://cwe.mitre.org/data/definitions/699.html) groups flaws around ideas used or encountered frequently in software development, whereas the **[Hardware Design](https://cwe.mitre.org/data/definitions/1194.html)** representation groups flaws around concepts used or encountered frequently in hardware design. Using several layers of abstraction, the **[Research Concept](https://cwe.mitre.org/data/definitions/1000.html)** representation promotes research into different sorts of weaknesses and arranges items by actions. Each hierarchical representation is utilized to navigate the complete list based on your particular point of view.\n\n### Content\n\nThe dataset was collected from **MITRE** and **NVD ** organizations webpage. \n\n- **Global_Dataset.xlsx**  : This dataset comprises all of the vulnerabilities reported in the NVD database between 2002 and 2021. The CVE ID, vulnerability description, CVSS scores, severity of the vulnerability, and corresponding CWE IDs are all included in the dataset.\n\n- **synonym_mapping.json** : It contains synonyms for some of the cyber security terms that were used in vulnerability descriptions reported by NVD, which can be found in the [CWE Glossary](https://cwe.mitre.org/documents/glossary/index.html). The words in the JSON file were the stemmed word from its original form. (It can be used as a additional preprocessing step to reduce the words domain)\n\nEach CWE List View has corresponding CWE data, such as ID, Name, Description, Extended Description, and so on. It also has a **hierarchical structure**, with **cwe_paths** containing all of the different pathways from the root to the hierarchy\u0027s nodes. **Vulnerability Dataset** is a dataset of all vulnerabilities that corresponds to a CWE in the view.\n\n## What can be done with this?\n\nThe **CVE-to-CWE classification** is an active research area various research papers are published. The CVE-to-CWE mapping is an multi label node classification and Non-mandatory leaf node prediction problem were the CWE\u0027s in each view were aligned in a hierarchical directed acyclic graph. The Global_Dataset can be further used for various applications such as Data Analyzis, Data Visualisation, EDA, NLP projects, Clustering , etc.\n\n### Some Research Works on CVE Classification\n\n1. [ThreatZoom: Hierarchical Neural Network for CVEs to CWEs Classification](https://www.researchgate.net/publication/344013865_ThreatZoom_Hierarchical_Neural_Network_for_CVEs_to_CWEs_Classification)\n2. [V2W-BERT: A Framework for Effective Hierarchical Multiclass\nClassification of Software Vulnerabilities](https://arxiv.org/pdf/2102.11498.pdf)\n3. [A Study on the Classification of Common Vulnerabilities and Exposures using Na\u00EFve Bayes](https://link.springer.com/chapter/10.1007%2F978-3-319-49106-6_65)","viewCount":7686,"downloadCount":868,"scriptCount":1,"topicCount":1,"owner":{"id":6474735,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6474735-kg.jpeg","name":"Kirushikesh DB","profileUrl":"/krooz0","slug":"krooz0","userTier":"CONTRIBUTOR"},"license":{"id":3,"name":"CC BY-NC-SA 4.0","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/"},"overview":"Dataset consist of CVE\u0027s from 2002-21 and all three views of CWE","collaboratorList":{"owner":{"userId":6474735,"profileUrl":"/krooz0","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6474735-kg.jpeg","name":"Kirushikesh DB","slug":"krooz0","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1830911/2987614/f0dc3a27ecbb3c7978201c39d95ba0ba/dataset-cover.png?t=2021-12-30-13-44-52","data":{"totalSize":32586403,"isFileset":true,"canDownload":true,"firestorePath":"xdrlWwFNF3DsWIcOfC1l/versions/lSwyXzsSzU8djR1OsKOc","downloadUrl":"/datasets/krooz0/krooz0/download?datasetVersionNumber=4","versionId":3037808,"id":1858180},"voteCount":45,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","downloadUrl":"/datasets/krooz0/cve-and-cwe-mapping-dataset/download?datasetVersionNumber=4","lastUpdateTime":"2021-12-31T06:27:34.643Z","datasetVersionNumber":4,"creatorDisplayName":"Kirushikesh DB","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1830911/2987614/f0dc3a27ecbb3c7978201c39d95ba0ba/dataset-card.png?t=2021-12-30-13-44-52","categories":{"tags":[{"id":12127,"name":"software","fullPath":"subject \u003E science and technology \u003E computer science \u003E software","listingUrl":"/datasets?group=public\u0026tagids=12127","description":"","datasetCount":7644,"notebookCount":11278,"tagUrl":"/tags/software","displayName":"Software"},{"id":14104,"name":"text","fullPath":"data type \u003E text","listingUrl":"/datasets?group=public\u0026tagids=14104","description":"","datasetCount":4239,"competitionCount":70,"notebookCount":3418,"tagUrl":"/tags/text-data","displayName":"Text","modelCount":76},{"id":13215,"name":"data analytics","fullPath":"technique \u003E data analytics","listingUrl":"/datasets?group=public\u0026tagids=13215","description":"","datasetCount":3559,"competitionCount":8,"notebookCount":9611,"tagUrl":"/tags/marketing-analytics","displayName":"Data Analytics"},{"id":13302,"name":"classification","fullPath":"task \u003E classification","listingUrl":"/datasets?group=public\u0026tagids=13302","description":"","datasetCount":3438,"competitionCount":7,"notebookCount":17007,"tagUrl":"/tags/classification","displayName":"Classification","googleMaterialIcon":"category"},{"id":16439,"name":"public safety","fullPath":"subject \u003E people and society \u003E law \u003E government \u003E public safety","listingUrl":"/datasets?group=public\u0026tagids=16439","description":"","datasetCount":1635,"competitionCount":2,"notebookCount":666,"tagUrl":"/tags/public-safety","displayName":"Public Safety"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/krooz0/cve-and-cwe-mapping-dataset","ownerTwitter":"kirushikesh","forumId":1853679,"datasetVersionId":2990043,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":4,"diffType":"UNVERSIONED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="7hqw&#x2B;AaGRQTJzgmM9d0OGQ==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
