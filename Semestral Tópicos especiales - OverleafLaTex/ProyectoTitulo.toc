@@ -19,7 +19,7 @@
 \contentsline {chapter}{\numberline {3}Materiales y Métodos}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Materiales y métodos para la recolección de datos y análisis de la población.}{8}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Metodología y materiales para el desarrollo del modelo GPT.}{9}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Análisis y Resultados}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Propuesta de prototipo}{10}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Creación de conjunto de datos de entrenamiento y Adaptación de modelo nanoGPT}{10}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Configuración de los parámetros del código y entrenamiento}{13}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Configuración 1}{14}{subsection.4.2.1}%

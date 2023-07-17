@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.13)  16 JUL 2023 20:35
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.13)  16 JUL 2023 22:36
  restricted system commands enabled.
 **ProyectoTitulo.tex
 (./ProyectoTitulo.tex
@@ -1502,7 +1502,7 @@ L3 programming layer <2023-06-30>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ProyectoTitulo.out' has not changed.
-(rerunfilecheck)             Checksum: 3DE1047BB496EF2E5B1A9A5F2850D649;9489.
+(rerunfilecheck)             Checksum: C7FEE85FE8E1E56714ECE2A3A2946EFF;9491.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1519,7 +1519,7 @@ Here is how much of LuaTeX's memory you used:
 <C:/Windows/Fonts/timesi.ttf><//?/c:/users/nefth/appdata/local/programs/miktex/f
 onts/opentype/public/lm/lmmono12-regular.otf><C:/Windows/Fonts/times.ttf><C:/Win
 dows/Fonts/timesbd.ttf>
-Output written on ProyectoTitulo.pdf (44 pages, 12448809 bytes).
+Output written on ProyectoTitulo.pdf (44 pages, 12448810 bytes).
 
 PDF statistics: 840 PDF objects out of 1000 (max. 8388607)
  153 named destinations out of 1000 (max. 131072)
