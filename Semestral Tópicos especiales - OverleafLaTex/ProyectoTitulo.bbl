@@ -4,6 +4,17 @@
 A, R. and H, S. (2020).
 \newblock The importance of cybersecurity education in school.
 
+\bibitem[Brown et~al., 2020]{Brown2020}
+Brown, T.~B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+  Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S.,
+  Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler,
+  D.~M., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray,
+  S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever,
+  I., and Amodei, D. (2020).
+\newblock Language models are few-shot learners.
+\newblock {\em Advances in Neural Information Processing Systems},
+  2020-December.
+
 \bibitem[Eslavova, 2019]{Eslavova2019}
 Eslavova, M. (2019).
 \newblock De la ciudadanía tradicional a la ciudadanía digital | epale.
@@ -57,5 +68,10 @@ Urribarri, R. (2022).
 \newblock Panamá: cobertura informativa de la brecha digital durante la
   pandemia por covid-19.
 \newblock {\em Anuario de Estudios Centroamericanos}, 48:1--16.
+
+\bibitem[Yang, 2020]{Yang2020}
+Yang, S. (2020).
+\newblock Train your own language model with nanogpt | by sophia yang, ph.d. |
+  medium.
 
 \end{thebibliography}

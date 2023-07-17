@@ -9,12 +9,14 @@ Por lo tanto, realizando el muestreo con la población tenemos una muestra con u
 Para la escala de medición se aplican niveles de ponderación sobre las preguntas relacionadas a prácticas de seguridad online, en donde 1 es falta de conciencia y métodos de navegación segura, 2 uso medio de métodos seguros y conciencia media, 3 conocimiento de los riesgos y uso de mecanismos de seguridad.
 %---------------------------------------------------------------------------
 \section{Metodología y materiales para el desarrollo del modelo GPT.}\label{section:Metodología y materiales para el desarrollo del modelo GPT} 
-Luego de la aplicación de la encuesta se realiza la recopilación de un conjunto de datos sobre buenas prácticas de navegación, consejos etc., relacionado a ciberseguridad. 
+Luego de la aplicación de la encuesta se realiza la recopilación de un conjunto de datos sobre buenas prácticas de navegación, consejos clasificados y etiquetados por categoría de amenazas en la web que luego son procesados para crear subconjuntos de entrenamiento y validación.
+Para la construcción del modelo se utiliza el framework NanoGPT, esta es una solución a pequeña escala que permite reproducir modelos GPT simples y complejos entrenamientos con pocas líneas de código. \cite{Yang2020}
+Para ello se realizan las etapas siguientes:
  \begin{itemize}
-        \item 1.    Creación del conjunto de datos.
-        \item 2.	Carga y procesamiento en nano GPT.
-        \item 3.	Entrenamiento. 
-        \item 4.	Pruebas de prompts
+        \item 1.    Creación del conjunto de datos etiquetados
+        \item 2.	Carga y preparación del conjunto de datos nanoGPT
+        \item 3.	Entrenamiento
+        \item 4.	Pruebas del modelo
     \end{itemize}
 %---------------------------------------------------------------------------
 
