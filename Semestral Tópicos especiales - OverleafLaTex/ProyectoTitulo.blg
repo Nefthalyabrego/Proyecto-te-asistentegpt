@@ -5,61 +5,95 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: biblio.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "A2020"
-Warning--I didn't find a database entry for "Nadeesha2021"
-Warning--I didn't find a database entry for "Eslavova2019"
-Warning--I didn't find a database entry for "Popkova2020"
-Warning--I didn't find a database entry for "Konkolewsky2017"
-Warning--I didn't find a database entry for "Lyon2017"
-Warning--I didn't find a database entry for "Li2021"
+Warning--entry type for "" isn't style-file defined
+--line 60 of file biblio.bib
+Repeated entry---line 165 of file biblio.bib
+ : @web_page{
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 183 of file biblio.bib
+ : @web_page{
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 190 of file biblio.bib
+ : @web_page{
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 197 of file biblio.bib
+ : @web_page{
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 204 of file biblio.bib
+ : @web_page{
+ :           ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Francis2022" isn't style-file defined
+--line 224 of file biblio.bib
+Repeated entry---line 231 of file biblio.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 236 of file biblio.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 240 of file biblio.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 268 of file biblio.bib
+ : @inproceedings{
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Eslavova2019" isn't style-file defined
+--line 311 of file biblio.bib
 Warning--I didn't find a database entry for "RobGord"
 Warning--I didn't find a database entry for "Zurizazi"
 Warning--I didn't find a database entry for "Train-employees"
-Warning--I didn't find a database entry for "Francis2022"
-Warning--I didn't find a database entry for "Urribarri2022"
 Warning--I didn't find a database entry for "Autor-Nacional"
 Warning--I didn't find a database entry for "Eleannor2022"
 Warning--I didn't find a database entry for "INEC"
-You've used 1 entry,
+Warning--empty journal in A2020
+Warning--empty journal in Nadeesha2021
+You've used 11 entries,
             1935 wiz_defined-function locations,
-            508 strings with 4161 characters,
-and the built_in function-call counts, 271 in all, are:
-= -- 28
-> -- 7
-< -- 1
-+ -- 2
-- -- 2
-* -- 15
-:= -- 58
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 16
-format.name$ -- 3
-if$ -- 48
+            552 strings with 5428 characters,
+and the built_in function-call counts, 3344 in all, are:
+= -- 330
+> -- 101
+< -- 11
++ -- 34
+- -- 30
+* -- 247
+:= -- 620
+add.period$ -- 29
+call.type$ -- 11
+change.case$ -- 70
+chr.to.int$ -- 11
+cite$ -- 13
+duplicate$ -- 136
+empty$ -- 238
+format.name$ -- 49
+if$ -- 639
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 9
-num.names$ -- 3
-pop$ -- 2
+missing$ -- 7
+newline$ -- 54
+num.names$ -- 33
+pop$ -- 47
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 70
 quote$ -- 0
-skip$ -- 10
+skip$ -- 114
 stack$ -- 0
-substring$ -- 12
-swap$ -- 0
+substring$ -- 217
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 2
+type$ -- 66
+warning$ -- 2
+while$ -- 27
 width$ -- 0
-write$ -- 16
-(There were 16 warnings)
+write$ -- 131
+(There were 9 error messages)
