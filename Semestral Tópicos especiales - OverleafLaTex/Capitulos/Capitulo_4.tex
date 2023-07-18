@@ -17,6 +17,7 @@ Este se extrae desde el archivo CSV con el uso de la librería pandas a un dataf
    \caption{Configuración para extraer el conjunto de datos en un dataframe y preparación de los datos.  \cite{}}
   \label{figure:Extracción de datos del csv}  % assign a unique label to each figure 
 \end{figure}
+\clearpage
 Para el entrenamiento con NanoGPT se crean las carpetas del conjunto de datos, se realiza el proceso de mapeo de caracteres a enteros también llamado vectorización para representar los datos de texto en secuencias de números. \cite{GenerGediz2020}
 En la figura \ref{figure:Etapa de encoder}
 \begin{figure}[H]
@@ -26,10 +27,10 @@ En la figura \ref{figure:Etapa de encoder}
   \label{figure:Etapa de encoder}  % assign a unique label to each figure 
 \end{figure}
 %Parrafo-----
-El procesamiento anterior crea ficheros de validación, entrenamiento y uno que contiene metadatos de los diccionarios para transformar de índices a palabras y viceversa para apoyo al proceso de condificación y decodificación.
+El procesamiento anterior crea ficheros de validación, entrenamiento y uno que contiene metadatos de los diccionarios para transformar de índices a palabras para apoyo al proceso de condificación y decodificación.
 \begin{figure}[H]
    \centering % figure is centered on the page
-       \includegraphics[width=0.8\linewidth]{./doc/04-cr.png} 
+       \includegraphics[width=0.6\linewidth]{./doc/04-cr.png} 
    \caption{Configuraciones y parámetros de entrenamiento que crea los directorios de salida para el modelo entrenado.  \cite{}}
   \label{figure:Configuraciónes de parámetros}  % assign a unique label to each figure 
 \end{figure}
@@ -60,13 +61,19 @@ Estas se realizado sobre la CPU, por lo que las configuraciones están centradas
 	\caption{Configuraciones de los modelos}
 	\label{tab:configuraciones}
 \end{table}
+
+%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+\subsubsection{Configuración parámetros para entrenamiento}\label{section:Configuración de los parámetros del código} 
+En esta sección se asignan a los parámetros mediante la ejecución del entrenamiento con en remplazo de las variables. Esto se realiza ejecutando el python y asignando los valores de las variables al ejecutar el archivo de entrenamiento.
 \subsection{Configuración 1}\label{section:Configuración de los parámetros del código} 
 \begin{itemize}
-	\item   Objetivo: Con esta configuración se busca mayor cantidad de parámetros el modelo reduciendo de bloque además se aumenta cantidad de capas de red y capas de atención.
+	\item   Objetivo: Con esta configuración se busca mayor cantidad de parámetros en el modelo reduciendo de bloque además se aumenta cantidad de capas de red y capas de atención.
 \end{itemize}
 \begin{figure}[H]
 	\centering % figure is centered on the page
-	\includegraphics[width=0.65\linewidth]{./rp/15-cp.png} 
+	\includegraphics[width=0.60\linewidth]{./rp/15-cp.png} 
 	\caption{Proceso de entrenamiento de modelo 1\cite{}}
 	\label{figure:Resultado 1}  % assign a unique label to each figure 
 \end{figure}
@@ -77,159 +84,119 @@ Estas se realizado sobre la CPU, por lo que las configuraciones están centradas
 \end{itemize}
 \begin{figure}[H]
 	\centering % figure is centered on the page
-	\includegraphics[width=0.65\linewidth]{./rp/05-cp.png} 
-	\caption{Configuraciones de entrenamiento de modelo 2  \cite{}}
-	\label{figure:Resultado 1}  % assign a unique label to each figure 
-\end{figure}
-\begin{figure}[H]
-	\centering % figure is centered on the page
-	\includegraphics[width=0.65\linewidth]{./rp/06-cp.png} 
+	\includegraphics[width=0.6\linewidth]{./rp/06-cp.png} 
 	\caption{Proceso de entrenamiento de modelo 2\cite{}}
 	\label{figure:Resultado 1}  % assign a unique label to each figure 
-\end{figure}
-
-
-%-------------------------------------------------------------------------------
-%------------------------------------------------------------------------------
-
-\subsubsection{Configuración parámetros para entrenamiento}\label{section:Configuración de los parámetros del código} 
-En la figura \ref{figure:Configuraciones modelo entrenamiento 2} se asignan a los parámetros mediante la ejecución del entrenamiento con en remplazo de las variables. Esto se realiza ejecutando el python y asignando los valores de las variables al ejecutar el archivo de entrenamiento.
-
-\begin{figure}[H]
-   \centering % figure is centered on the page
-       \includegraphics[width=0.7\linewidth]{./doc/Proceso de entrenamiento en XCP-ng.png} 
-   \caption{Configuraciones de entrenamiento de modelo  \cite{}}
-  \label{figure:Configuraciones modelo entrenamiento 2}  % assign a unique label to each figure 
-\end{figure}
-\begin{figure}[H]
-   \centering % figure is centered on the page
-       \includegraphics[width=0.5\linewidth]{./rp/06-cp.png} 
-   \caption{Proceso de entrenamiento de modelo\cite{}}
-  \label{figure:Proceso de entrenamiento del modelo}  % assign a unique label to each figure 
 \end{figure}
 %----------------------------------------------------------------------------
 \clearpage
 
-\subsection{Validación del modelo Configuración}\label{section:Validación de prompt}
-\subsubsection{ Prueba 1}\label{section:Validación del prototipo}
-Durante la prueba 1 se mantienen las configuraciones para ob
-    \begin{itemize}
-        \item   Top de tokens mas probables = 100
-        \item   Temperatura = 1.2
-        \item   Cantidad de tokens generados = 500
-        \item   Prueba = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
-    
+\subsection{Validación del modelos}\label{section:Validación de prompt}
+Durante la prueba 1 ejecuta el archivo \textbf{sample.py} que permite configurar las variaciones en las respuestas, los parámetros en este código permiten configurar la cantidad de tokens, su probabilidad siendo cero la más baja, la temperatura para que el modelo muestre aleatoriedad en la decodificación del texto. 
+En esta seccion se realizan pruebas con las mismas consultas a los dos modelos en las categorías \textbf{Tips para protegerse sel phising}, {consejos para navegación segura}
+\subsection{Validación del modelo 1}\label{section:Validación Modelo 2}
+\subsubsection{ Prueba 1}\label{section:Prueba 1 config 2}
+Durante la prueba 1 ejecuta el archivo \textbf{sample.py} que permite configurar las variaciones en las respuestas, los parametros en este código permiten configurar la cantidad de tokens, su probabilidad siendo cero la más baja, la temperatura para que el modelo muestre aleatoriedad en la decodificación del texto. Las configuraciones de la prueba uno establecen estos parámetros para obtener los tokens mas probables, matener una aleatoriedad en la respuesta y una máxima cantidad de tokens en quinientos.  
+La consulta realizada es sobre 
+Ejecución de pruebas
+\subsubsection{ Prueba 1}\label{section:Modelo 1 Prueba1}
+\begin{figure}[H]
+	\centering % figure is centered on the page
+	\includegraphics[width=0.60\linewidth]{./rp/07-cp.png} 
+	\caption{Resultado de modelo 1 con temperatura 10 y probabilidad de tokens en 1, consulta sobre\cite{}}
+	\label{figure:Result prueba 1 mol 1}  % assign a unique label to each figure 
+\end{figure}
+\subsubsection{ Prueba 2}\label{section:Modelo 1 Prueba2}
+\begin{figure}[H]
+	\centering % figure is centered on the page
+	\includegraphics[width=0.60\linewidth]{./rp/08-cp.png} 
+	\caption{Prueba 2 consulta sobre navegación segura en internet}
+	\label{figure:Result modelo 1 prueba 2}  % assign a unique label to each figure 
+\end{figure}
+\subsubsection{ Prueba 3}\label{section:Prueba 3 mol 2}
+\begin{itemize}
+	\item   Top-k = 100
+	\item   Temperatura = 1.2
+	\item   Ma-new-tokens = 500
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.60\linewidth]{./rp/09-cp.png} 
+		\caption{Prueba 3 con configuración d probabilidad del token en 100 y temperatura 1.2}
+		\label{figure:Result Prueba 3 mod 2}  % assign a unique label to each figure 
+	\end{figure}
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="safe internet browsing"
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.65\linewidth]{./rp/10-cp.png} 
+		\caption{Resultados de la Prueba 3.2 y 3.3\cite{}}
+		\label{figure:Resultado 3.2}  % assign a unique label to each figure 
+	\end{figure}
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.65\linewidth]{./rp/11-cp.png} 
+		\caption{Resultados de la Prueba 3.4\cite{}}
+		\label{figure:Resultado 3.4}  % assign a unique label to each figure 
+	\end{figure}
+\end{itemize}
+\subsubsection{ Prueba 4}\label{section:Adaptación de modelo nanoGPT}
+\begin{itemize}
+	\item   Top-k = 100
+	\item   Temperatura = 1.1
+	\item   Ma-new-tokens = 500
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.65\linewidth]{./rp/12-cp.png} 
+		\caption{Resultados de la Prueba 4.1\cite{}}
+		\label{figure:Resultado 4 1}  % assign a unique label to each figure 
+	\end{figure}
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.65\linewidth]{./rp/13-cp.png} 
+		\caption{Resultados de la Prueba 4.2\cite{}}
+		\label{figure:Resultado prueba 4 2}  % assign a unique label to each figure 
+	\end{figure}
+	\item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
+	\begin{figure}[H]
+		\centering % figure is centered on the page
+		\includegraphics[width=0.65\linewidth]{./rp/14-cp.png} 
+		\caption{Resultados de la Prueba 4.3\cite{}}
+		\label{figure:Result prueba 4}  % assign a unique label to each figure 
+	\end{figure}
+\end{itemize}
+%---------------------------------------------------------------------------
+\subsubsection{ Pruebas de modelo 2}\label{section:Validación del prototipo}
+Durante la prueba 1 se mantienen ejecuta el archivo \textbf{sample.py} que permite configurar las variaciones en las respuestas, los parametros en este código permiten configurar la cantidad de tokens, su probabilidad siendo cero la más baja, la temperatura para que el modelo muestre aleatoriedad en la decodificación del texto. Las configuraciones de la prueba uno establecen estos parámetros para obtener los tokens mas probables, matener una aleatoriedad de 1.2 y una máxima cantidad de tokens en quinientos.  La consulta realizada es sobre \textbf{Tips para protegerse sel phising}, {consejos para navegación segura}
+Ejecución de pruebas
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.65\linewidth]{./rp/16-cp.png} 
    \caption{Resultados de la Prueba 1\cite{}}
   \label{figure:Prueba1}  % assign a unique label to each figure 
 \end{figure}
-        \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="safe internet browsing "
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.65\linewidth]{./rp/17-cp.png} 
    \caption{Resultados de la Prueba 2\cite{}}
   \label{figure:Prueba2}  % assign a unique label to each figure 
 \end{figure}
-        \item   Prompt = python3 sample.py –out-dir=out-assistmade-char --device=cpu --start="computer security tips"
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.65\linewidth]{./rp/18-cp.png} 
    \caption{Resultados de la Prueba 3\cite{}}
   \label{figure:Resultado prueba 3}  % assign a unique label to each figure 
 \end{figure}
-        \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="prevent identity theft"
 \begin{figure}[H]
    \centering % figure is centered on the page
        \includegraphics[width=0.65\linewidth]{./rp/19-cp.png} 
    \caption{Resultados de la Prueba 4\cite{}}
   \label{figure:Resultado prueba 4}  % assign a unique label to each figure 
 \end{figure}
-\end{itemize}
 %-----------------------------------------------------------------------------   
-\subsection{Validación del modelo Configuración 2}\label{section:Validación Modelo 2}
-\subsubsection{ Prueba 1}\label{section:Prueba 1 config 2}
-    \begin{itemize}
-        \item   Top-k = 1
-        \item   Temperatura = 10
-        \item   Ma-new-tokens = 500
-        \item    Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
-    \end{itemize}
-\begin{figure}[H]
-   \centering % figure is centered on the page
-       \includegraphics[width=0.65\linewidth]{./rp/07-cp.png} 
-   \caption{Resultados de la Prueba 1\cite{}}
-  \label{figure:Result prueba 1 mol 2}  % assign a unique label to each figure 
-\end{figure}
-\subsubsection{ Prueba 2}\label{section:Prueba2}
-    \begin{itemize}
-        \item   Top-k = 0.8
-        \item   Temperatura = 10
-        \item   Ma-new-tokens = 500
-        \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="safe internet browsing"
-    \end{itemize}
-\begin{figure}[H]
-   \centering % figure is centered on the page
-       \includegraphics[width=0.65\linewidth]{./rp/08-cp.png} 
-   \caption{Resultados de la Prueba 2\cite{}}
-  \label{figure:Result prueb 2 mol 2}  % assign a unique label to each figure 
-\end{figure}
-\subsubsection{ Prueba 3}\label{section:Prueba 3 mol 2}
-    \begin{itemize}
-        \item   Top-k = 100
-        \item   Temperatura = 1.2
-        \item   Ma-new-tokens = 500
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/09-cp.png} 
-              \caption{Resultados de la Prueba 3.1\cite{}}
-            \label{figure:Result Prueba 3 mod 2}  % assign a unique label to each figure 
-            \end{figure}
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="safe internet browsing"
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/10-cp.png} 
-              \caption{Resultados de la Prueba 3.2 y 3.3\cite{}}
-            \label{figure:Resultado 3.2}  % assign a unique label to each figure 
-            \end{figure}
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/11-cp.png} 
-              \caption{Resultados de la Prueba 3.4\cite{}}
-            \label{figure:Resultado 3.4}  % assign a unique label to each figure 
-            \end{figure}
-    \end{itemize}
-\subsubsection{ Prueba 4}\label{section:Adaptación de modelo nanoGPT}
-    \begin{itemize}
-        \item   Top-k = 100
-        \item   Temperatura = 1.1
-        \item   Ma-new-tokens = 500
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start=" phising protection tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/12-cp.png} 
-              \caption{Resultados de la Prueba 4.1\cite{}}
-            \label{figure:Resultado 4 1}  % assign a unique label to each figure 
-            \end{figure}
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/13-cp.png} 
-              \caption{Resultados de la Prueba 4.2\cite{}}
-            \label{figure:Resultado prueba 4 2}  % assign a unique label to each figure 
-            \end{figure}
-            \item   Prompt = python3 sample.py --out-dir=out-assistmade-char --device=cpu --start="computer security tips"
-            \begin{figure}[H]
-              \centering % figure is centered on the page
-                  \includegraphics[width=0.65\linewidth]{./rp/14-cp.png} 
-              \caption{Resultados de la Prueba 4.3\cite{}}
-            \label{figure:Result prueba 4}  % assign a unique label to each figure 
-            \end{figure}
-    \end{itemize}
-%---------------------------------------------------------------------------
+
 %------------------------------------------------------------------------------
 

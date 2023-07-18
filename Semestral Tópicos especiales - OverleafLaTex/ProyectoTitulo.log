@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.13)  17 JUL 2023 11:48
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.13)  17 JUL 2023 12:56
  restricted system commands enabled.
 **ProyectoTitulo.tex
 (./ProyectoTitulo.tex
@@ -612,14 +612,11 @@ LaTeX Warning: Label `section:Configuración de los parámetros del código' mu
 ltiply defined.
 
 
-LaTeX Warning: Label `figure:Resultado 1' multiply defined.
-
-
-LaTeX Warning: Label `figure:Resultado 1' multiply defined.
-
-
 LaTeX Warning: Label `section:Configuración de los parámetros del código' mu
 ltiply defined.
+
+
+LaTeX Warning: Label `figure:Resultado 1' multiply defined.
 
 
 LaTeX Warning: Label `figure:Resultado 1' multiply defined.
@@ -787,7 +784,7 @@ Package hyperref Info: Link coloring ON on input line 11.
 \@outlinefile=\write3
 
 \openout3 = ProyectoTitulo.out
-<./figures/01-u.png, id=174, 1927.2pt x 1900.09875pt>
+<./figures/01-u.png, id=178, 1927.2pt x 1900.09875pt>
 File: ./figures/01-u.png Graphic file (type png)
 <use ./figures/01-u.png>
 Package luatex.def Info: ./figures/01-u.png  used on input line 36.
@@ -830,12 +827,12 @@ LaTeX Info: Redefining \% on input line 1.
  [5
 
 
-]
-[6])
+])
 \tf@lof=\write5
 
 \openout5 = ProyectoTitulo.lof
- [7] (./Capitulos/Capitulo_1.tex
+
+[6] (./Capitulos/Capitulo_1.tex
 Capítulo 1.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -859,7 +856,7 @@ Package natbib Warning: Citation `INEC' on page 9 undefined on input line 8.
 [9
 
 ]
-<./doc/04Métodología de configuración del prototipo.png, id=462, 828.84656pt
+<./doc/04Métodología de configuración del prototipo.png, id=457, 828.84656pt
  x 309.40594pt>
 File: ./doc/04Métodología de configuración del prototipo.png Graphic file (t
 ype png)
@@ -868,7 +865,7 @@ Package luatex.def Info: ./doc/04Métodología de configuración del prototipo.
 png  used on input line 20.
 (luatex.def)             Requested size: 457.80486pt x 170.89612pt.
 ) (./Capitulos/Capitulo_4.tex
-<./doc/Conjunto de datos etiquetado.png, id=464, 1103.62312pt x 621.07031pt>
+<./doc/Conjunto de datos etiquetado.png, id=459, 1103.62312pt x 621.07031pt>
 File: ./doc/Conjunto de datos etiquetado.png Graphic file (type png)
 <use ./doc/Conjunto de datos etiquetado.png>
 Package luatex.def Info: ./doc/Conjunto de datos etiquetado.png  used on input 
@@ -878,41 +875,42 @@ line 8.
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 '
 <./doc/04Métodología de configuración del prototipo.png>]
-<./doc/02-cr.png, id=475, 793.46437pt x 525.46312pt>
+<./doc/02-cr.png, id=470, 793.46437pt x 525.46312pt>
 File: ./doc/02-cr.png Graphic file (type png)
 <use ./doc/02-cr.png>
 Package luatex.def Info: ./doc/02-cr.png  used on input line 16.
 (luatex.def)             Requested size: 274.6857pt x 181.91037pt.
-
-
-Package natbib Warning: Citation `GenerGediz2020' on page 11 undefined on input
- line 20.
-
-<./doc/03-cr.png, id=477, 755.82375pt x 660.21657pt>
-File: ./doc/03-cr.png Graphic file (type png)
-<use ./doc/03-cr.png>
-Package luatex.def Info: ./doc/03-cr.png  used on input line 24.
-(luatex.def)             Requested size: 274.6857pt x 239.93437pt.
-[11
+ [11
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.2
 '
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.3
 '
 <./doc/Conjunto de datos etiquetado.png><./doc/02-cr.png>]
-<./doc/04-cr.png, id=486, 609.02531pt x 587.19376pt>
+
+Package natbib Warning: Citation `GenerGediz2020' on page 12 undefined on input
+ line 21.
+
+<./doc/03-cr.png, id=480, 755.82375pt x 660.21657pt>
+File: ./doc/03-cr.png Graphic file (type png)
+<use ./doc/03-cr.png>
+Package luatex.def Info: ./doc/03-cr.png  used on input line 25.
+(luatex.def)             Requested size: 274.6857pt x 239.93437pt.
+<./doc/04-cr.png, id=481, 609.02531pt x 587.19376pt>
 File: ./doc/04-cr.png Graphic file (type png)
 <use ./doc/04-cr.png>
-Package luatex.def Info: ./doc/04-cr.png  used on input line 32.
-(luatex.def)             Requested size: 366.24527pt x 353.12535pt.
- [12
+Package luatex.def Info: ./doc/04-cr.png  used on input line 33.
+(luatex.def)             Requested size: 274.6857pt x 264.84401pt.
+[12
+
+
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.4
 '
 <./doc/03-cr.png>] [13
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.5
 '
 <./doc/04-cr.png>]
-Overfull \hbox (51.82613pt too wide) in paragraph at lines 52--60
+Overfull \hbox (51.82613pt too wide) in paragraph at lines 53--61
  [][] 
  []
 
@@ -922,157 +920,131 @@ Overfull \hbox (51.82613pt too wide) in paragraph at lines 52--60
 warning  (pdf backend): ignoring duplicate destination with the name 'table.3.1'
 
 ]
-<./rp/15-cp.png, id=511, 727.21687pt x 456.20438pt>
+<./rp/15-cp.png, id=506, 727.21687pt x 456.20438pt>
 File: ./rp/15-cp.png Graphic file (type png)
 <use ./rp/15-cp.png>
-Package luatex.def Info: ./rp/15-cp.png  used on input line 69.
-(luatex.def)             Requested size: 297.57036pt x 186.67606pt.
-<./rp/05-cp.png, id=512, 651.93562pt x 713.66624pt>
-File: ./rp/05-cp.png Graphic file (type png)
-<use ./rp/05-cp.png>
-Package luatex.def Info: ./rp/05-cp.png  used on input line 80.
-(luatex.def)             Requested size: 297.57036pt x 325.75316pt.
-<./rp/06-cp.png, id=513, 563.85657pt x 656.4525pt>
+Package luatex.def Info: ./rp/15-cp.png  used on input line 76.
+(luatex.def)             Requested size: 274.6857pt x 172.32225pt.
+<./rp/06-cp.png, id=507, 563.85657pt x 656.4525pt>
 File: ./rp/06-cp.png Graphic file (type png)
 <use ./rp/06-cp.png>
-Package luatex.def Info: ./rp/06-cp.png  used on input line 86.
-(luatex.def)             Requested size: 297.57036pt x 346.4357pt.
+Package luatex.def Info: ./rp/06-cp.png  used on input line 87.
+(luatex.def)             Requested size: 274.6857pt x 319.79143pt.
  [15
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.6
 '
 <./rp/15-cp.png>] [16
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.7
 '
-<./rp/05-cp.png>]
-<./doc/Proceso de entrenamiento en XCP-ng.png, id=525, 1418.29875pt x 829.59938
-pt>
-File: ./doc/Proceso de entrenamiento en XCP-ng.png Graphic file (type png)
-<use ./doc/Proceso de entrenamiento en XCP-ng.png>
-Package luatex.def Info: ./doc/Proceso de entrenamiento en XCP-ng.png  used on 
-input line 100.
-(luatex.def)             Requested size: 320.46199pt x 187.43665pt.
-File: ./rp/06-cp.png Graphic file (type png)
-<use ./rp/06-cp.png>
-Package luatex.def Info: ./rp/06-cp.png  used on input line 106.
-(luatex.def)             Requested size: 228.90242pt x 266.49286pt.
+<./rp/06-cp.png>]
+<./rp/07-cp.png, id=518, 757.32938pt x 230.36063pt>
+File: ./rp/07-cp.png Graphic file (type png)
+<use ./rp/07-cp.png>
+Package luatex.def Info: ./rp/07-cp.png  used on input line 105.
+(luatex.def)             Requested size: 274.6857pt x 83.55191pt.
+<./rp/08-cp.png, id=519, 724.95844pt x 140.02313pt>
+File: ./rp/08-cp.png Graphic file (type png)
+<use ./rp/08-cp.png>
+Package luatex.def Info: ./rp/08-cp.png  used on input line 112.
+(luatex.def)             Requested size: 274.6857pt x 53.0555pt.
  [17
+
+
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.8
 '
-<./rp/06-cp.png>] [18
+<./rp/07-cp.png>]
+<./rp/09-cp.png, id=525, 724.95844pt x 291.33844pt>
+File: ./rp/09-cp.png Graphic file (type png)
+<use ./rp/09-cp.png>
+Package luatex.def Info: ./rp/09-cp.png  used on input line 124.
+(luatex.def)             Requested size: 274.6857pt x 110.38968pt.
+<./rp/10-cp.png, id=526, 726.46407pt x 332.74312pt>
+File: ./rp/10-cp.png Graphic file (type png)
+<use ./rp/10-cp.png>
+Package luatex.def Info: ./rp/10-cp.png  used on input line 132.
+(luatex.def)             Requested size: 297.57036pt x 136.29861pt.
+ [18
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.9
 '
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 0'
-<./doc/Proceso de entrenamiento en XCP-ng.png>]
-<./rp/16-cp.png, id=537, 725.71124pt x 297.36093pt>
-File: ./rp/16-cp.png Graphic file (type png)
-<use ./rp/16-cp.png>
-Package luatex.def Info: ./rp/16-cp.png  used on input line 124.
-(luatex.def)             Requested size: 297.57036pt x 121.93237pt.
-<./rp/17-cp.png, id=538, 725.71124pt x 298.86656pt>
-File: ./rp/17-cp.png Graphic file (type png)
-<use ./rp/17-cp.png>
-Package luatex.def Info: ./rp/17-cp.png  used on input line 131.
-(luatex.def)             Requested size: 297.57036pt x 122.54976pt.
-<./rp/18-cp.png, id=539, 725.71124pt x 311.66437pt>
-File: ./rp/18-cp.png Graphic file (type png)
-<use ./rp/18-cp.png>
-Package luatex.def Info: ./rp/18-cp.png  used on input line 138.
-(luatex.def)             Requested size: 297.57036pt x 127.79749pt.
+<./rp/08-cp.png><./rp/09-cp.png>]
+<./rp/11-cp.png, id=533, 722.7pt x 170.88844pt>
+File: ./rp/11-cp.png Graphic file (type png)
+<use ./rp/11-cp.png>
+Package luatex.def Info: ./rp/11-cp.png  used on input line 139.
+(luatex.def)             Requested size: 297.57036pt x 70.36197pt.
+<./rp/12-cp.png, id=534, 724.95844pt x 197.98969pt>
+File: ./rp/12-cp.png Graphic file (type png)
+<use ./rp/12-cp.png>
+Package luatex.def Info: ./rp/12-cp.png  used on input line 152.
+(luatex.def)             Requested size: 297.57036pt x 81.26994pt.
+<./rp/13-cp.png, id=535, 724.20563pt x 186.6975pt>
+File: ./rp/13-cp.png Graphic file (type png)
+<use ./rp/13-cp.png>
+Package luatex.def Info: ./rp/13-cp.png  used on input line 159.
+(luatex.def)             Requested size: 297.57036pt x 76.71169pt.
  [19
-
-
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 1'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 2'
-<./rp/16-cp.png><./rp/17-cp.png>]
-<./rp/19-cp.png, id=546, 721.19438pt x 264.99pt>
-File: ./rp/19-cp.png Graphic file (type png)
-<use ./rp/19-cp.png>
-Package luatex.def Info: ./rp/19-cp.png  used on input line 145.
-(luatex.def)             Requested size: 297.57036pt x 109.33398pt.
-<./rp/07-cp.png, id=547, 757.32938pt x 230.36063pt>
-File: ./rp/07-cp.png Graphic file (type png)
-<use ./rp/07-cp.png>
-Package luatex.def Info: ./rp/07-cp.png  used on input line 161.
-(luatex.def)             Requested size: 297.57036pt x 90.51515pt.
- [20
+
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 3'
-
+<./rp/10-cp.png><./rp/11-cp.png><./rp/12-cp.png>]
+<./rp/14-cp.png, id=543, 723.45282pt x 185.19188pt>
+File: ./rp/14-cp.png Graphic file (type png)
+<use ./rp/14-cp.png>
+Package luatex.def Info: ./rp/14-cp.png  used on input line 166.
+(luatex.def)             Requested size: 297.57036pt x 76.17216pt.
+<./rp/16-cp.png, id=544, 725.71124pt x 297.36093pt>
+File: ./rp/16-cp.png Graphic file (type png)
+<use ./rp/16-cp.png>
+Package luatex.def Info: ./rp/16-cp.png  used on input line 177.
+(luatex.def)             Requested size: 297.57036pt x 121.93237pt.
+<./rp/17-cp.png, id=545, 725.71124pt x 298.86656pt>
+File: ./rp/17-cp.png Graphic file (type png)
+<use ./rp/17-cp.png>
+Package luatex.def Info: ./rp/17-cp.png  used on input line 183.
+(luatex.def)             Requested size: 297.57036pt x 122.54976pt.
+ [20
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 4'
-<./rp/18-cp.png><./rp/19-cp.png>]
-<./rp/08-cp.png, id=554, 724.95844pt x 140.02313pt>
-File: ./rp/08-cp.png Graphic file (type png)
-<use ./rp/08-cp.png>
-Package luatex.def Info: ./rp/08-cp.png  used on input line 174.
-(luatex.def)             Requested size: 297.57036pt x 57.47607pt.
-<./rp/09-cp.png, id=555, 724.95844pt x 291.33844pt>
-File: ./rp/09-cp.png Graphic file (type png)
-<use ./rp/09-cp.png>
-Package luatex.def Info: ./rp/09-cp.png  used on input line 186.
-(luatex.def)             Requested size: 297.57036pt x 119.58734pt.
- [21
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
-5'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
+5'
+<./rp/13-cp.png><./rp/14-cp.png>]
+<./rp/18-cp.png, id=552, 725.71124pt x 311.66437pt>
+File: ./rp/18-cp.png Graphic file (type png)
+<use ./rp/18-cp.png>
+Package luatex.def Info: ./rp/18-cp.png  used on input line 189.
+(luatex.def)             Requested size: 297.57036pt x 127.79749pt.
+<./rp/19-cp.png, id=553, 721.19438pt x 264.99pt>
+File: ./rp/19-cp.png Graphic file (type png)
+<use ./rp/19-cp.png>
+Package luatex.def Info: ./rp/19-cp.png  used on input line 195.
+(luatex.def)             Requested size: 297.57036pt x 109.33398pt.
+ [21
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 6'
-<./rp/07-cp.png><./rp/08-cp.png>]
-<./rp/10-cp.png, id=562, 726.46407pt x 332.74312pt>
-File: ./rp/10-cp.png Graphic file (type png)
-<use ./rp/10-cp.png>
-Package luatex.def Info: ./rp/10-cp.png  used on input line 194.
-(luatex.def)             Requested size: 297.57036pt x 136.29861pt.
-<./rp/11-cp.png, id=563, 722.7pt x 170.88844pt>
-File: ./rp/11-cp.png Graphic file (type png)
-<use ./rp/11-cp.png>
-Package luatex.def Info: ./rp/11-cp.png  used on input line 201.
-(luatex.def)             Requested size: 297.57036pt x 70.36197pt.
- [22
+
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 7'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 8'
-
+<./rp/16-cp.png><./rp/17-cp.png><./rp/18-cp.png>]) (./Capitulos/Capitulo_5.tex
+[22
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 9'
-<./rp/09-cp.png><./rp/10-cp.png><./rp/11-cp.png>]
-<./rp/12-cp.png, id=571, 724.95844pt x 197.98969pt>
-File: ./rp/12-cp.png Graphic file (type png)
-<use ./rp/12-cp.png>
-Package luatex.def Info: ./rp/12-cp.png  used on input line 214.
-(luatex.def)             Requested size: 297.57036pt x 81.26994pt.
-<./rp/13-cp.png, id=572, 724.20563pt x 186.6975pt>
-File: ./rp/13-cp.png Graphic file (type png)
-<use ./rp/13-cp.png>
-Package luatex.def Info: ./rp/13-cp.png  used on input line 221.
-(luatex.def)             Requested size: 297.57036pt x 76.71169pt.
-<./rp/14-cp.png, id=573, 723.45282pt x 185.19188pt>
-File: ./rp/14-cp.png Graphic file (type png)
-<use ./rp/14-cp.png>
-Package luatex.def Info: ./rp/14-cp.png  used on input line 228.
-(luatex.def)             Requested size: 297.57036pt x 76.17216pt.
-) (./Capitulos/Capitulo_5.tex
-[23
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.2
-0'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.2
-1'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.2
-2'
-<./rp/12-cp.png><./rp/13-cp.png><./rp/14-cp.png>]
+<./rp/19-cp.png>]
 Capítulo 4.
-) (./Capitulos/Capitulo_6.tex [24
+) (./Capitulos/Capitulo_6.tex [23
 
-]) [25] (./ProyectoTitulo.bbl
+]) [24] (./ProyectoTitulo.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
 \TU/lmtt/m/n/12 pa/analizan-[]el-[]tren-[]de-[]defensa-[]ante-[]las-[]amenazas-[]de-[]la-[]era-[]digital/#:~:
  []
@@ -1083,9 +1055,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--13
 20las%
  []
 
-[26
+[25
 
-]) [27] [28
+]) [26] [27
 
 
 ] (./Capitulos/Anexo_I.tex) (./Capitulos/Anexo_II.tex
@@ -1094,27 +1066,27 @@ Anexo I.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-<./rf/imagen1.png, id=611, 453.19313pt x 157.33781pt>
+<./rf/imagen1.png, id=596, 453.19313pt x 157.33781pt>
 File: ./rf/imagen1.png Graphic file (type png)
 <use ./rf/imagen1.png>
 Package luatex.def Info: ./rf/imagen1.png  used on input line 6.
 (luatex.def)             Requested size: 366.24527pt x 127.15242pt.
-<./rf/imagen2.png, id=612, 453.19313pt x 120.45pt>
+<./rf/imagen2.png, id=597, 453.19313pt x 120.45pt>
 File: ./rf/imagen2.png Graphic file (type png)
 <use ./rf/imagen2.png>
 Package luatex.def Info: ./rf/imagen2.png  used on input line 12.
 (luatex.def)             Requested size: 366.24527pt x 97.34157pt.
-<./rf/imagen3.png, id=613, 453.19313pt x 205.5178pt>
+<./rf/imagen3.png, id=598, 453.19313pt x 205.5178pt>
 File: ./rf/imagen3.png Graphic file (type png)
 <use ./rf/imagen3.png>
 Package luatex.def Info: ./rf/imagen3.png  used on input line 18.
 (luatex.def)             Requested size: 366.24527pt x 166.08905pt.
-<./rf/imagen4.png, id=614, 453.19313pt x 180.675pt>
+<./rf/imagen4.png, id=599, 453.19313pt x 180.675pt>
 File: ./rf/imagen4.png Graphic file (type png)
 <use ./rf/imagen4.png>
 Package luatex.def Info: ./rf/imagen4.png  used on input line 24.
 (luatex.def)             Requested size: 366.24527pt x 146.01234pt.
-[29
+[28
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
@@ -1123,22 +1095,22 @@ h1.1'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.2'
 <./rf/imagen1.png><./rf/imagen2.png>]
-<./rf/imagen5.png, id=621, 453.19313pt x 207.02344pt>
+<./rf/imagen5.png, id=606, 453.19313pt x 207.02344pt>
 File: ./rf/imagen5.png Graphic file (type png)
 <use ./rf/imagen5.png>
 Package luatex.def Info: ./rf/imagen5.png  used on input line 30.
 (luatex.def)             Requested size: 366.24527pt x 167.30582pt.
-<./rf/imagen6.png, id=622, 453.19313pt x 234.8775pt>
+<./rf/imagen6.png, id=607, 453.19313pt x 234.8775pt>
 File: ./rf/imagen6.png Graphic file (type png)
 <use ./rf/imagen6.png>
 Package luatex.def Info: ./rf/imagen6.png  used on input line 36.
 (luatex.def)             Requested size: 366.24527pt x 189.81607pt.
-<./rf/imagen7.png, id=623, 453.19313pt x 220.57407pt>
+<./rf/imagen7.png, id=608, 453.19313pt x 220.57407pt>
 File: ./rf/imagen7.png Graphic file (type png)
 <use ./rf/imagen7.png>
 Package luatex.def Info: ./rf/imagen7.png  used on input line 42.
 (luatex.def)             Requested size: 366.24527pt x 178.25676pt.
- [30
+ [29
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.3'
 
@@ -1148,22 +1120,22 @@ h1.4'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.5'
 <./rf/imagen3.png><./rf/imagen4.png><./rf/imagen5.png>]
-<./rf/imagen8.png, id=631, 453.19313pt x 137.01187pt>
+<./rf/imagen8.png, id=616, 453.19313pt x 137.01187pt>
 File: ./rf/imagen8.png Graphic file (type png)
 <use ./rf/imagen8.png>
 Package luatex.def Info: ./rf/imagen8.png  used on input line 48.
 (luatex.def)             Requested size: 366.24527pt x 110.72603pt.
-<./rf/imagen9.png, id=632, 453.19313pt x 239.39438pt>
+<./rf/imagen9.png, id=617, 453.19313pt x 239.39438pt>
 File: ./rf/imagen9.png Graphic file (type png)
 <use ./rf/imagen9.png>
 Package luatex.def Info: ./rf/imagen9.png  used on input line 54.
 (luatex.def)             Requested size: 366.24527pt x 193.46637pt.
-<./rf/imagen10.png, id=633, 453.19313pt x 224.33812pt>
+<./rf/imagen10.png, id=618, 453.19313pt x 224.33812pt>
 File: ./rf/imagen10.png Graphic file (type png)
 <use ./rf/imagen10.png>
 Package luatex.def Info: ./rf/imagen10.png  used on input line 60.
 (luatex.def)             Requested size: 366.24527pt x 181.29868pt.
- [31
+ [30
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.6'
 
@@ -1173,39 +1145,39 @@ h1.7'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.8'
 <./rf/imagen6.png><./rf/imagen7.png><./rf/imagen8.png>]
-<./rf/imagen11.png, id=641, 453.19313pt x 268.00125pt>
+<./rf/imagen11.png, id=626, 453.19313pt x 268.00125pt>
 File: ./rf/imagen11.png Graphic file (type png)
 <use ./rf/imagen11.png>
 Package luatex.def Info: ./rf/imagen11.png  used on input line 66.
 (luatex.def)             Requested size: 366.24527pt x 216.58499pt.
-<./rf/imagen12.png, id=642, 453.19313pt x 137.7647pt>
+<./rf/imagen12.png, id=627, 453.19313pt x 137.7647pt>
 File: ./rf/imagen12.png Graphic file (type png)
 <use ./rf/imagen12.png>
 Package luatex.def Info: ./rf/imagen12.png  used on input line 72.
 (luatex.def)             Requested size: 366.24527pt x 111.33441pt.
- [32
+ [31
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.9'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.10'
 <./rf/imagen9.png><./rf/imagen10.png>]
-<./rf/imagen13.png, id=649, 453.19313pt x 191.9672pt>
+<./rf/imagen13.png, id=634, 453.19313pt x 191.9672pt>
 File: ./rf/imagen13.png Graphic file (type png)
 <use ./rf/imagen13.png>
 Package luatex.def Info: ./rf/imagen13.png  used on input line 78.
 (luatex.def)             Requested size: 366.24527pt x 155.13814pt.
-<./rf/imagen14.png, id=650, 453.19313pt x 203.25937pt>
+<./rf/imagen14.png, id=635, 453.19313pt x 203.25937pt>
 File: ./rf/imagen14.png Graphic file (type png)
 <use ./rf/imagen14.png>
 Package luatex.def Info: ./rf/imagen14.png  used on input line 84.
 (luatex.def)             Requested size: 366.24527pt x 164.2639pt.
-<./rf/imagen15.png, id=651, 453.19313pt x 170.13562pt>
+<./rf/imagen15.png, id=636, 453.19313pt x 170.13562pt>
 File: ./rf/imagen15.png Graphic file (type png)
 <use ./rf/imagen15.png>
 Package luatex.def Info: ./rf/imagen15.png  used on input line 90.
 (luatex.def)             Requested size: 366.24527pt x 137.49496pt.
- [33
+ [32
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.11'
 
@@ -1215,56 +1187,56 @@ h1.12'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.13'
 <./rf/imagen11.png><./rf/imagen12.png><./rf/imagen13.png>]
-<./re/imagen21.png, id=660, 453.0015pt x 215.496pt>
+<./re/imagen21.png, id=644, 453.0015pt x 215.496pt>
 File: ./re/imagen21.png Graphic file (type png)
 <use ./re/imagen21.png>
 Package luatex.def Info: ./re/imagen21.png  used on input line 99.
 (luatex.def)             Requested size: 366.24527pt x 174.22527pt.
-<./re/imagen22.png, id=661, 453.0015pt x 190.53pt>
+<./re/imagen22.png, id=645, 453.0015pt x 190.53pt>
 File: ./re/imagen22.png Graphic file (type png)
 <use ./re/imagen22.png>
 Package luatex.def Info: ./re/imagen22.png  used on input line 105.
 (luatex.def)             Requested size: 366.24527pt x 154.04062pt.
- [34
+ [33
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.14'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.15'
 <./rf/imagen14.png><./rf/imagen15.png>]
-<./re/imagen23.png, id=668, 453.0015pt x 190.53pt>
+<./re/imagen23.png, id=652, 453.0015pt x 190.53pt>
 File: ./re/imagen23.png Graphic file (type png)
 <use ./re/imagen23.png>
 Package luatex.def Info: ./re/imagen23.png  used on input line 111.
 (luatex.def)             Requested size: 366.24527pt x 154.04062pt.
-<./re/imagen24.png, id=669, 453.0015pt x 190.53pt>
+<./re/imagen24.png, id=653, 453.0015pt x 190.53pt>
 File: ./re/imagen24.png Graphic file (type png)
 <use ./re/imagen24.png>
 Package luatex.def Info: ./re/imagen24.png  used on input line 117.
 (luatex.def)             Requested size: 366.24527pt x 154.04062pt.
- [35
+ [34
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.16'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.17'
 <./re/imagen21.png><./re/imagen22.png>]
-<./re/imagen25.png, id=676, 453.0015pt x 190.53pt>
+<./re/imagen25.png, id=661, 453.0015pt x 190.53pt>
 File: ./re/imagen25.png Graphic file (type png)
 <use ./re/imagen25.png>
 Package luatex.def Info: ./re/imagen25.png  used on input line 123.
 (luatex.def)             Requested size: 366.24527pt x 154.04062pt.
-<./re/imagen26.png, id=677, 453.0015pt x 205.3125pt>
+<./re/imagen26.png, id=662, 453.0015pt x 205.3125pt>
 File: ./re/imagen26.png Graphic file (type png)
 <use ./re/imagen26.png>
 Package luatex.def Info: ./re/imagen26.png  used on input line 129.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
-<./re/imagen27.png, id=678, 453.0015pt x 205.3125pt>
+<./re/imagen27.png, id=663, 453.0015pt x 205.3125pt>
 File: ./re/imagen27.png Graphic file (type png)
 <use ./re/imagen27.png>
 Package luatex.def Info: ./re/imagen27.png  used on input line 135.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
- [36
+ [35
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.18'
 
@@ -1274,22 +1246,22 @@ h1.19'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.20'
 <./re/imagen23.png><./re/imagen24.png><./re/imagen25.png>]
-<./re/imagen28.png, id=686, 453.0015pt x 205.3125pt>
+<./re/imagen28.png, id=671, 453.0015pt x 205.3125pt>
 File: ./re/imagen28.png Graphic file (type png)
 <use ./re/imagen28.png>
 Package luatex.def Info: ./re/imagen28.png  used on input line 141.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
-<./re/imagen29.png, id=687, 453.0015pt x 190.53pt>
+<./re/imagen29.png, id=672, 453.0015pt x 190.53pt>
 File: ./re/imagen29.png Graphic file (type png)
 <use ./re/imagen29.png>
 Package luatex.def Info: ./re/imagen29.png  used on input line 147.
 (luatex.def)             Requested size: 366.24527pt x 154.04062pt.
-<./re/imagen30.png, id=688, 453.0015pt x 205.3125pt>
+<./re/imagen30.png, id=673, 453.0015pt x 205.3125pt>
 File: ./re/imagen30.png Graphic file (type png)
 <use ./re/imagen30.png>
 Package luatex.def Info: ./re/imagen30.png  used on input line 153.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
- [37
+ [36
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.21'
 
@@ -1299,22 +1271,22 @@ h1.22'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.23'
 <./re/imagen26.png><./re/imagen27.png><./re/imagen28.png>]
-<./re/imagen31.png, id=696, 453.0015pt x 205.3125pt>
+<./re/imagen31.png, id=681, 453.0015pt x 205.3125pt>
 File: ./re/imagen31.png Graphic file (type png)
 <use ./re/imagen31.png>
 Package luatex.def Info: ./re/imagen31.png  used on input line 159.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
-<./re/imagen32.png, id=697, 453.0015pt x 205.3125pt>
+<./re/imagen32.png, id=682, 453.0015pt x 205.3125pt>
 File: ./re/imagen32.png Graphic file (type png)
 <use ./re/imagen32.png>
 Package luatex.def Info: ./re/imagen32.png  used on input line 165.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
-<./re/imagen33.png, id=698, 453.0015pt x 205.3125pt>
+<./re/imagen33.png, id=683, 453.0015pt x 205.3125pt>
 File: ./re/imagen33.png Graphic file (type png)
 <use ./re/imagen33.png>
 Package luatex.def Info: ./re/imagen33.png  used on input line 171.
 (luatex.def)             Requested size: 366.24527pt x 165.99205pt.
- [38
+ [37
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.24'
 
@@ -1324,7 +1296,7 @@ h1.25'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.26'
 <./re/imagen29.png><./re/imagen30.png><./re/imagen31.png>]
-<./re/imagen34.png, id=706, 453.0015pt x 205.3125pt>
+<./re/imagen34.png, id=691, 453.0015pt x 205.3125pt>
 File: ./re/imagen34.png Graphic file (type png)
 <use ./re/imagen34.png>
 Package luatex.def Info: ./re/imagen34.png  used on input line 177.
@@ -1333,7 +1305,7 @@ Package luatex.def Info: ./re/imagen34.png  used on input line 177.
 
 Package natbib Warning: There were undefined citations.
 
-[39
+[38
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.Alp
 h1.27'
 
@@ -1356,26 +1328,26 @@ L3 programming layer <2023-06-30>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ProyectoTitulo.out' has not changed.
-(rerunfilecheck)             Checksum: DAD34660C8923235292CB85A7C3C7DB7;8413.
+(rerunfilecheck)             Checksum: 9962B3DEEA4F1966AF84C0AD110F1036;8450.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16808 strings out of 477545
+ 16779 strings out of 477545
  125027,1977958 words of node,token memory allocated
- 609 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 21 attribute, 58 glue_spec
-, 12 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:1,2:1040,3:300,4:248,5:307,6:88,7:6966,8:167,9:506,10:32,11:10
+ 621 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 23 attribute, 58 glue_spec
+, 13 attribute_list, 1 write, 6 pdf_action nodes
+   avail lists: 1:1,2:1006,3:300,4:244,5:299,6:85,7:6966,8:167,9:497,10:32,11:10
 35
- 37093 multiletter control sequences out of 65536+600000
+ 37077 multiletter control sequences out of 65536+600000
  56 fonts using 17373735 bytes
  94i,12n,102p,1953b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><//?/c:/users/nefth/appdata/local/programs/miktex/f
 onts/opentype/public/lm/lmmono12-regular.otf><C:/Windows/Fonts/times.ttf><C:/Win
 dows/Fonts/timesbd.ttf>
-Output written on ProyectoTitulo.pdf (47 pages, 11896235 bytes).
+Output written on ProyectoTitulo.pdf (45 pages, 10403979 bytes).
 
-PDF statistics: 749 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 131072)
- 345 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 734 PDF objects out of 1000 (max. 8388607)
+ 166 named destinations out of 1000 (max. 131072)
+ 353 words of extra memory for PDF output out of 10000 (max. 100000000)
 
